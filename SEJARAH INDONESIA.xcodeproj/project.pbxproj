@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		49190ED7217886770035E3BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49190ED6217886770035E3BC /* AppDelegate.swift */; };
+		49190ED9217886770035E3BC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49190ED8217886770035E3BC /* ViewController.swift */; };
+		49190EDC217886770035E3BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49190EDA217886770035E3BC /* Main.storyboard */; };
+		49190EDE217886780035E3BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49190EDD217886780035E3BC /* Assets.xcassets */; };
+		49190EE1217886780035E3BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49190EDF217886780035E3BC /* LaunchScreen.storyboard */; };
+		49190EEC217886780035E3BC /* SEJARAH_INDONESIATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49190EEB217886780035E3BC /* SEJARAH_INDONESIATests.swift */; };
+		49190EF7217886780035E3BC /* SEJARAH_INDONESIAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49190EF6217886780035E3BC /* SEJARAH_INDONESIAUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		49190EE8217886780035E3BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49190ECB217886770035E3BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49190ED2217886770035E3BC;
+			remoteInfo = "SEJARAH INDONESIA";
+		};
+		49190EF3217886780035E3BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 49190ECB217886770035E3BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 49190ED2217886770035E3BC;
+			remoteInfo = "SEJARAH INDONESIA";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		49190ED3217886770035E3BC /* SEJARAH INDONESIA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SEJARAH INDONESIA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49190ED6217886770035E3BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49190ED8217886770035E3BC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		49190EDB217886770035E3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49190EDD217886780035E3BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49190EE0217886780035E3BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49190EE2217886780035E3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49190EE7217886780035E3BC /* SEJARAH INDONESIATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SEJARAH INDONESIATests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49190EEB217886780035E3BC /* SEJARAH_INDONESIATests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEJARAH_INDONESIATests.swift; sourceTree = "<group>"; };
+		49190EED217886780035E3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		49190EF2217886780035E3BC /* SEJARAH INDONESIAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SEJARAH INDONESIAUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		49190EF6217886780035E3BC /* SEJARAH_INDONESIAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEJARAH_INDONESIAUITests.swift; sourceTree = "<group>"; };
+		49190EF8217886780035E3BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49190ED0217886770035E3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49190EE4217886780035E3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49190EEF217886780035E3BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		49190ECA217886770035E3BC = {
+			isa = PBXGroup;
+			children = (
+				49190ED5217886770035E3BC /* SEJARAH INDONESIA */,
+				49190EEA217886780035E3BC /* SEJARAH INDONESIATests */,
+				49190EF5217886780035E3BC /* SEJARAH INDONESIAUITests */,
+				49190ED4217886770035E3BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		49190ED4217886770035E3BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49190ED3217886770035E3BC /* SEJARAH INDONESIA.app */,
+				49190EE7217886780035E3BC /* SEJARAH INDONESIATests.xctest */,
+				49190EF2217886780035E3BC /* SEJARAH INDONESIAUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49190ED5217886770035E3BC /* SEJARAH INDONESIA */ = {
+			isa = PBXGroup;
+			children = (
+				49190ED6217886770035E3BC /* AppDelegate.swift */,
+				49190ED8217886770035E3BC /* ViewController.swift */,
+				49190EDA217886770035E3BC /* Main.storyboard */,
+				49190EDD217886780035E3BC /* Assets.xcassets */,
+				49190EDF217886780035E3BC /* LaunchScreen.storyboard */,
+				49190EE2217886780035E3BC /* Info.plist */,
+			);
+			path = "SEJARAH INDONESIA";
+			sourceTree = "<group>";
+		};
+		49190EEA217886780035E3BC /* SEJARAH INDONESIATests */ = {
+			isa = PBXGroup;
+			children = (
+				49190EEB217886780035E3BC /* SEJARAH_INDONESIATests.swift */,
+				49190EED217886780035E3BC /* Info.plist */,
+			);
+			path = "SEJARAH INDONESIATests";
+			sourceTree = "<group>";
+		};
+		49190EF5217886780035E3BC /* SEJARAH INDONESIAUITests */ = {
+			isa = PBXGroup;
+			children = (
+				49190EF6217886780035E3BC /* SEJARAH_INDONESIAUITests.swift */,
+				49190EF8217886780035E3BC /* Info.plist */,
+			);
+			path = "SEJARAH INDONESIAUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49190ED2217886770035E3BC /* SEJARAH INDONESIA */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49190EFB217886780035E3BC /* Build configuration list for PBXNativeTarget "SEJARAH INDONESIA" */;
+			buildPhases = (
+				49190ECF217886770035E3BC /* Sources */,
+				49190ED0217886770035E3BC /* Frameworks */,
+				49190ED1217886770035E3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SEJARAH INDONESIA";
+			productName = "SEJARAH INDONESIA";
+			productReference = 49190ED3217886770035E3BC /* SEJARAH INDONESIA.app */;
+			productType = "com.apple.product-type.application";
+		};
+		49190EE6217886780035E3BC /* SEJARAH INDONESIATests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49190EFE217886780035E3BC /* Build configuration list for PBXNativeTarget "SEJARAH INDONESIATests" */;
+			buildPhases = (
+				49190EE3217886780035E3BC /* Sources */,
+				49190EE4217886780035E3BC /* Frameworks */,
+				49190EE5217886780035E3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49190EE9217886780035E3BC /* PBXTargetDependency */,
+			);
+			name = "SEJARAH INDONESIATests";
+			productName = "SEJARAH INDONESIATests";
+			productReference = 49190EE7217886780035E3BC /* SEJARAH INDONESIATests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		49190EF1217886780035E3BC /* SEJARAH INDONESIAUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49190F01217886780035E3BC /* Build configuration list for PBXNativeTarget "SEJARAH INDONESIAUITests" */;
+			buildPhases = (
+				49190EEE217886780035E3BC /* Sources */,
+				49190EEF217886780035E3BC /* Frameworks */,
+				49190EF0217886780035E3BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				49190EF4217886780035E3BC /* PBXTargetDependency */,
+			);
+			name = "SEJARAH INDONESIAUITests";
+			productName = "SEJARAH INDONESIAUITests";
+			productReference = 49190EF2217886780035E3BC /* SEJARAH INDONESIAUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49190ECB217886770035E3BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = habdev;
+				TargetAttributes = {
+					49190ED2217886770035E3BC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					49190EE6217886780035E3BC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 49190ED2217886770035E3BC;
+					};
+					49190EF1217886780035E3BC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = 49190ED2217886770035E3BC;
+					};
+				};
+			};
+			buildConfigurationList = 49190ECE217886770035E3BC /* Build configuration list for PBXProject "SEJARAH INDONESIA" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49190ECA217886770035E3BC;
+			productRefGroup = 49190ED4217886770035E3BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49190ED2217886770035E3BC /* SEJARAH INDONESIA */,
+				49190EE6217886780035E3BC /* SEJARAH INDONESIATests */,
+				49190EF1217886780035E3BC /* SEJARAH INDONESIAUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49190ED1217886770035E3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49190EE1217886780035E3BC /* LaunchScreen.storyboard in Resources */,
+				49190EDE217886780035E3BC /* Assets.xcassets in Resources */,
+				49190EDC217886770035E3BC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49190EE5217886780035E3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49190EF0217886780035E3BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49190ECF217886770035E3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49190ED9217886770035E3BC /* ViewController.swift in Sources */,
+				49190ED7217886770035E3BC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49190EE3217886780035E3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49190EEC217886780035E3BC /* SEJARAH_INDONESIATests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49190EEE217886780035E3BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49190EF7217886780035E3BC /* SEJARAH_INDONESIAUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		49190EE9217886780035E3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49190ED2217886770035E3BC /* SEJARAH INDONESIA */;
+			targetProxy = 49190EE8217886780035E3BC /* PBXContainerItemProxy */;
+		};
+		49190EF4217886780035E3BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 49190ED2217886770035E3BC /* SEJARAH INDONESIA */;
+			targetProxy = 49190EF3217886780035E3BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		49190EDA217886770035E3BC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49190EDB217886770035E3BC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49190EDF217886780035E3BC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49190EE0217886780035E3BC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49190EF9217886780035E3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49190EFA217886780035E3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49190EFC217886780035E3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SEJARAH INDONESIA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.SEJARAH-INDONESIA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		49190EFD217886780035E3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SEJARAH INDONESIA/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.SEJARAH-INDONESIA";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		49190EFF217886780035E3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SEJARAH INDONESIATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.SEJARAH-INDONESIATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEJARAH INDONESIA.app/SEJARAH INDONESIA";
+			};
+			name = Debug;
+		};
+		49190F00217886780035E3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SEJARAH INDONESIATests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.SEJARAH-INDONESIATests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SEJARAH INDONESIA.app/SEJARAH INDONESIA";
+			};
+			name = Release;
+		};
+		49190F02217886780035E3BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SEJARAH INDONESIAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.SEJARAH-INDONESIAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SEJARAH INDONESIA";
+			};
+			name = Debug;
+		};
+		49190F03217886780035E3BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "SEJARAH INDONESIAUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "devex.SEJARAH-INDONESIAUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SEJARAH INDONESIA";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49190ECE217886770035E3BC /* Build configuration list for PBXProject "SEJARAH INDONESIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49190EF9217886780035E3BC /* Debug */,
+				49190EFA217886780035E3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49190EFB217886780035E3BC /* Build configuration list for PBXNativeTarget "SEJARAH INDONESIA" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49190EFC217886780035E3BC /* Debug */,
+				49190EFD217886780035E3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49190EFE217886780035E3BC /* Build configuration list for PBXNativeTarget "SEJARAH INDONESIATests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49190EFF217886780035E3BC /* Debug */,
+				49190F00217886780035E3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49190F01217886780035E3BC /* Build configuration list for PBXNativeTarget "SEJARAH INDONESIAUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49190F02217886780035E3BC /* Debug */,
+				49190F03217886780035E3BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 49190ECB217886770035E3BC /* Project object */;
+}

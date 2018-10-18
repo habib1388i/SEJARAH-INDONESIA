@@ -1,0 +1,1104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="B2s-L9-gx7">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--HOME-->
+        <scene sceneID="UOi-kV-B8H">
+            <objects>
+                <viewController id="ysJ-h0-mDH" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="hlZ-8V-jHG">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-map" translatesAutoresizingMaskIntoConstraints="NO" id="aaB-Jt-IJa">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="GbF-Vt-NOh"/>
+                                    <constraint firstAttribute="height" constant="667" id="su3-BN-JAf"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="K2H-MW-hUm">
+                                <rect key="frame" x="16" y="106" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="Dfk-SW-Zxy"/>
+                                    <constraint firstAttribute="height" constant="30" id="Zq2-4F-H2a"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoITCTT-Book" family="Bodoni 72" pointSize="33"/>
+                                <state key="normal" title="sejarah indonesia">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ISD-rb-OL1">
+                                <rect key="frame" x="16" y="181" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71627141497461921" green="0.59717629035707154" blue="0.4089531981500637" alpha="0.3888591609589041" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="11"/>
+                                <state key="normal" title="PON Pertama di Tengah Kecamuk Perang Kemerdekaan">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="PwA-cE-sqD" kind="show" id="7hP-qC-TJr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xW7-Gb-ymf">
+                                <rect key="frame" x="16" y="234" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="11"/>
+                                <state key="normal" title="Musso Gagal Menciptakan Ketertiban, Akibatnya: Madiun Affair 1948">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Z1T-Wb-Sc3" kind="show" id="HBR-6o-y4z"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="275-2S-5jG">
+                                <rect key="frame" x="16" y="347" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="11"/>
+                                <state key="normal" title="Kala Pemuda Republik Mengambilalih Djawatan Kereta Api">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="EWu-6R-3Gv" kind="show" id="VYB-h4-oIV"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6HE-xs-sYT">
+                                <rect key="frame" x="16" y="287" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="11"/>
+                                <state key="normal" title="Kelahiran dan Kematian Trem di Kota Malang">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="rHf-lz-G3b" kind="show" id="dPZ-no-O1u"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oPV-UR-UWB">
+                                <rect key="frame" x="16" y="400" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="11"/>
+                                <state key="normal" title="Terbentuknya PETA &amp; Cara Membela Tanah Air Gatot Mangkoepradja">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="XFV-eW-RYL" kind="show" id="Qyl-1W-BQ0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qa5-LB-ZT9">
+                                <rect key="frame" x="16" y="453" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="11"/>
+                                <state key="normal" title="Ramai-Ramai Tak Mengakui G30S pada 3 Oktober 1965">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="IOm-vd-vvA" kind="show" id="PKu-gw-Tad"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cBL-nA-3Fl">
+                                <rect key="frame" x="16" y="559" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="18"/>
+                                <state key="normal" title="more detail">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="scj-81-bRO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4LV-C9-RMh">
+                                <rect key="frame" x="16" y="506" width="343" height="45"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="Charter-Roman" family="Charter" pointSize="11"/>
+                                <state key="normal" title="Peringatan HUT ABRI Paling Kelam pada 5 Oktober 1965">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                                <connections>
+                                    <segue destination="g02-Vl-wz6" kind="show" id="rXY-14-TQE"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="aaB-Jt-IJa" firstAttribute="trailing" secondItem="64f-Bz-hgI" secondAttribute="trailing" id="0Fp-hm-sUF"/>
+                            <constraint firstItem="K2H-MW-hUm" firstAttribute="leading" secondItem="64f-Bz-hgI" secondAttribute="leading" constant="16" id="6EC-fe-TZc"/>
+                            <constraint firstItem="aaB-Jt-IJa" firstAttribute="bottom" secondItem="64f-Bz-hgI" secondAttribute="bottom" id="6mm-PN-Jtt"/>
+                            <constraint firstItem="aaB-Jt-IJa" firstAttribute="leading" secondItem="64f-Bz-hgI" secondAttribute="leading" id="ASP-ue-Vam"/>
+                            <constraint firstItem="aaB-Jt-IJa" firstAttribute="top" secondItem="hlZ-8V-jHG" secondAttribute="top" id="Y4h-eO-vqf"/>
+                            <constraint firstItem="K2H-MW-hUm" firstAttribute="top" secondItem="64f-Bz-hgI" secondAttribute="top" constant="42" id="jgz-IH-cdD"/>
+                            <constraint firstItem="64f-Bz-hgI" firstAttribute="trailing" secondItem="K2H-MW-hUm" secondAttribute="trailing" constant="16" id="u23-5D-u1s"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="64f-Bz-hgI"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="HOME" id="mOL-vf-ypU"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WBP-0z-65c" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1930.4000000000001" y="1129.385307346327"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="QFy-7E-y27">
+            <objects>
+                <navigationController id="B2s-L9-gx7" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7oV-7n-btN">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ysJ-h0-mDH" kind="relationship" relationship="rootViewController" id="djO-Ks-0Cf"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0FD-kd-xLd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2714" y="1128"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tkk-Z6-n7J">
+            <objects>
+                <viewController id="rHf-lz-G3b" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ZxF-5I-ibY">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-map" translatesAutoresizingMaskIntoConstraints="NO" id="fHu-2L-tcv">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="UNb-Wj-kdV"/>
+                                    <constraint firstAttribute="width" constant="375" id="vvC-Vg-E8z"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Jepretan Layar 2018-10-18 pada 21.05.02" translatesAutoresizingMaskIntoConstraints="NO" id="Eno-Ug-WYo">
+                                <rect key="frame" x="26" y="123" width="323" height="210"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="210" id="0wg-HS-LxK"/>
+                                    <constraint firstAttribute="width" constant="323" id="aa4-eV-AnK"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DKz-vv-OdS">
+                                <rect key="frame" x="16" y="85" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="0aj-Gf-9FB"/>
+                                    <constraint firstAttribute="height" constant="30" id="bgq-iQ-Hmy"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="18"/>
+                                <state key="normal" title="Kelahiran dan Kematian Trem di Kota Malang">
+                                    <color key="titleColor" red="0.19302565220000001" green="0.1960333923" blue="0.20461215099999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="f4K-1W-eJ3">
+                                <rect key="frame" x="26" y="350" width="323" height="287"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="287" id="IWP-Kp-lEB"/>
+                                    <constraint firstAttribute="width" constant="323" id="loc-4J-uE0"/>
+                                </constraints>
+                                <mutableString key="text">tirto.id - Hawa sejuk menjadikan kota Malang tempat pemukiman dan persinggahan favorit. Geliat kemajuan dan keramaian di kota ini dapat ditelusuri kembali di akhir abad ke-19.
+
+Kala itu, Malang adalah sebuah kota kabupaten di pedalaman yang termasuk dalam teritori Karesidenan Pasuruan. Kota-kota kolonial di Jawa secara geografis dibagi menjadi kota pesisir dan kota pedalaman. Malang termasuk dalam kategori yang kedua. Dengan kondisi geografis yang diapit pegunungan tinggi, komoditas andalan Malang adalah hasil pertanian. 
+
+Posisinya jelas kontras dengan Surabaya yang lebih dulu ramai dan mengalami proses modernisasi layaknya Semarang dan Batavia. Pembangunan infrastruktur dan bisnis perkebunan di Malang mulai berlangsung sejak pemerintah Belanda memberlakukan Undang-Undang Agraria (Agrarischewet) tahun 1870 dan Undang-Undang Gula (Suikerwet). 
+
+Salah satu penanda kemajuan di era kolonial saat itu adalah keterhubungan satu daerah dengan daerah lainnya via jalur kereta api. Tak terkecuali Malang, yang sejak 1876 terhubung dengan Surabaya melalui rel kereta yang dibangun Staat Spoorwagen (SS) selaku perusahaan kereta api milik pemerintahan Hindia Belanda.
+
+Menurut Handinoto dalam "Perkembangan Kota Malang pada Jaman Kolonial (1914-1940)" (1996) yang terbit di jurnal Dimensi, rel kereta api SS yang sejajar dengan jalan masuk ke Malang dan berakhir di stasiun Kota Lama itu sangat berpengaruh besar terhadap perkembangan Kota Malang. Ada banyak rumah orang Eropa kelak dibangun di sekitar rel.
+
+Baca juga:
+Swiss Kecil Itu Bernama Kota Batu
+
+Jalan-jalan darat penghubung daerah perkebunan dan kota-kota lain seperti Blitar, Batu, dan Surabaya juga dibangun. Memasuki tahun 1900-an, orang tak lagi bisa menyebut Malang kota pedalaman yang terisolir.
+
+Trem yang Menghidupkan Malang
+Meningkatnya aktivitas lahan perkebunan diikuti oleh arus perpindahan penduduk ke Malang. Saat itu, alat transportasi seperti sepeda dirasa tak lagi cukup untuk mengakomodir mobilitas sehari-hari. Gerobak dan alat transportasi sejenisnya pun tak lagi mampu mengangkut hasil perkebunan.
+
+Kebutuhan akan alat angkut komoditas dan transportasi massal diendus oleh pengusaha kereta api swasta yang lantas memutuskan untuk membuka jasa angkutan kereta api. Salah satunya, adalah Malang Stoomtram Mattschappij (MSM). Dalam penelitan bertajuk "Malang Stoomtram Mattschappij Pada Masa Kolonial di Malang Tahun 1901-1930" (2017), Galih Wahyu Tri Wicaksono menyebutkan, MSM berhasil mendapat izin konsensi dari pemerintah Hindia Belanda dan mendirikan kantor pusat di Jagalan pada 14 November 1897. Meski demikian, izin baru berlaku setelah MSM menerima surat keputusan pemerintah per 13 Juli 1901 No. 28. Saat itu posisi direktur pertama MSM dijabat oleh J. Bakker. 
+
+Sebagai perusahaan swasta yang bergerak di bidang jasa angkutan kereta api, MSM masih satu asosiasi dengan perusahaan trem Kediri Stoomtram Maatschappij (KSM) yang mengoperasikan trayek trem Kediri-Pare-Jombang dan sekitarnya.
+
+Baca juga:
+Kereta Api Harus Ada di Nusantara
+
+Infografik Sejarah Trem
+
+
+Pembangunan jalur trem sendiri dilakukan secara bertahap. Total ada delapan jalur yang dibangun antara 1897 dan 1908. Banyak jalur trem dibangun di wilayah Malang selatan yang tak lain adalah pusat penghasil tebu dan kopi terbesar pada masanya.
+
+Resmi dibuka pada 14 November 1897, jalur pertama melintang sepanjang 11 km dan menghubungkan Malang dan Bululawang. Jalur kedua, penghubung Bululawang dan Gondanglegi, berjarak 12 kilometer dan resmi beroperasi pada 4 Februari 1898. Jalur ketiga antara Gondanglegi dan Talok yang berjarak tujuh kilometer, beroperasi pada 9 September 1898. Jalur keempat, antara Talok dan Dampit, berjarak delapan kilometer dan dibuka 14 Januari 1899. Jalur kelima, antara Gondanglegi dan Kepanjen, berjarak 17 kilometer dan diresmikan pada 10 Juni 1900. 
+
+Jalur keenam Tumpang dan Singasari dengan jarak terpanjang sejauh 23 kilometer, dibuka 27 April 1901. Jalur ketujuh antara Malang dan Blimbing berjarak enam kilometer, dibuka 15 Februari 1903. Terakhir, jalur Sedayu dan Turen dengan jarak terpendek sejauh satu kilometer, dibuka pada 25 September 1908. 
+
+Stasiun MSM pertama yang bernama stasiun Malang Jagalan dibangun pada 1900. Puluhan halte pemberhentian trem berdiri di puluhan jalur tersebut. 
+
+Jalur-jalur trem juga terhubung ke Pabrik Gula Krebet sehingga pengangkutan hasil tebu jadi lebih efisien. Ada pula jalur trem yang membelah alun-alun Kota Malang. Semua Lokomotif trem MSM dibeli dari perusahaan asal Jerman bernama Hohenzollern.
+
+
+Baca juga:
+Jejak Jalur Kereta Api Pertama di Jawa
+
+Trem uap MSM digerakkan oleh tenaga kayu bakar dari pohon jati yang padat keras sehingga awet dan tidak mudah menjadi abu saat dibakar. 
+
+Jalur trem juga terkoneksi dengan jalur kereta api Staatspoorwagen (SS) yang makin memudahkan penumpang untuk beralih dari kereta api SS ke kereta api trem dan sebaliknya. Ada tiga stasiun SS kala itu, yakni Malang SS, Singosari, dan Kepanjen.
+
+Singkatnya, trem dan status kotamadya (gemeente) yang disandang Malang sejak 1914 hingga pertengahan abad membuat kota itu makin ramai. Wilayah sekitar halte pemberhentian dan stasiun trem berkembang menjadi pasar-pasar baru yang mempertemukan banyak orang.
+
+Angkutan kereta di Hindia Belanda, baik kereta api jarak jauh maupun kereta trem, memang menjadi moda transportasi favorit bagi penduduk pribumi. Menurut Rudolf Mrazek dalam berjudul Engineer of Happyland (2006), orang-orang pribumi lebih suka bepergian dengan kereta. Sementara orang Eropa lebih suka tinggal di rumah.
+
+Kini, trem di Kota Malang hanya menyisakan kenangan. Sisa-sisa kejayaannya masih dapat dilihat dari rel-rel di bahu jalan raya. Tak semuanya lengkap, karena sebagian besar sudah tertutup oleh trotoar dan aspal jalan.
+
+Begitu pula dengan nasib bangunan stasiun dan halte-halte pemberhentian trem. Sebagian besar sudah hancur, tidak terawat ,dan berganti rupa menjadi bangunan baru. Yang bertahan hanyalah stasiun-stasiun besar yang melayani kereta jarak jauh SS, yakni stasiun Kota Lama, stasiun Singosari, dan stasiun Kepanjen.
+
+Baca juga:
+Jalur-jalur Mati Kereta Api
+
+Situasi serupa juga terjadi di kota-kota lain yang pernah memiliki jaringan trem. Pergantian kekuasaan dari pemerintahan Hindia Belanda ke pendudukan Jepang hingga Republik Indonesia turut mempengaruhi kejayaan trem sebagai moda transportasi modern yang kala itu memasuki senjakala. Kemunculan bus dan kendaraan bermotor lainnya pada masa kemerdekaan akhirnya membunuh trem. </mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="fHu-2L-tcv" firstAttribute="top" secondItem="ZxF-5I-ibY" secondAttribute="top" id="2RH-CU-uVV"/>
+                            <constraint firstItem="VGC-yZ-0gK" firstAttribute="trailing" secondItem="f4K-1W-eJ3" secondAttribute="trailing" constant="26" id="AEM-Fu-iAc"/>
+                            <constraint firstItem="fHu-2L-tcv" firstAttribute="bottom" secondItem="VGC-yZ-0gK" secondAttribute="bottom" id="J3M-cg-70S"/>
+                            <constraint firstItem="f4K-1W-eJ3" firstAttribute="leading" secondItem="VGC-yZ-0gK" secondAttribute="leading" constant="26" id="LyJ-4P-GSw"/>
+                            <constraint firstItem="VGC-yZ-0gK" firstAttribute="bottom" secondItem="f4K-1W-eJ3" secondAttribute="bottom" constant="30" id="TAK-4o-pS0"/>
+                            <constraint firstItem="DKz-vv-OdS" firstAttribute="leading" secondItem="VGC-yZ-0gK" secondAttribute="leading" constant="16" id="aIX-YZ-h9z"/>
+                            <constraint firstItem="Eno-Ug-WYo" firstAttribute="top" secondItem="DKz-vv-OdS" secondAttribute="bottom" constant="8" id="t1E-m4-h3g"/>
+                            <constraint firstItem="VGC-yZ-0gK" firstAttribute="trailing" secondItem="Eno-Ug-WYo" secondAttribute="trailing" constant="26" id="tDW-ay-sU1"/>
+                            <constraint firstItem="DKz-vv-OdS" firstAttribute="top" secondItem="VGC-yZ-0gK" secondAttribute="top" constant="21" id="tNP-Xf-4qN"/>
+                            <constraint firstItem="fHu-2L-tcv" firstAttribute="trailing" secondItem="VGC-yZ-0gK" secondAttribute="trailing" id="wxQ-O0-HEF"/>
+                            <constraint firstItem="fHu-2L-tcv" firstAttribute="leading" secondItem="VGC-yZ-0gK" secondAttribute="leading" id="xWX-b7-6Um"/>
+                            <constraint firstItem="VGC-yZ-0gK" firstAttribute="trailing" secondItem="DKz-vv-OdS" secondAttribute="trailing" constant="16" id="xYW-4y-Rwj"/>
+                            <constraint firstItem="Eno-Ug-WYo" firstAttribute="leading" secondItem="VGC-yZ-0gK" secondAttribute="leading" constant="26" id="zpB-aL-xew"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="VGC-yZ-0gK"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Miv-Ep-71D" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="416.80000000000001" y="1127.5862068965519"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="1ih-yp-1Lu">
+            <objects>
+                <viewController id="PwA-cE-sqD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="flw-Gx-y8S">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-map" translatesAutoresizingMaskIntoConstraints="NO" id="Wir-JY-odj">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="glL-qx-bpC"/>
+                                    <constraint firstAttribute="height" constant="667" id="tSQ-1V-1df"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VS6-au-fjX">
+                                <rect key="frame" x="16" y="85" width="343" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="X2R-JJ-wka"/>
+                                    <constraint firstAttribute="height" constant="26" id="YCH-wb-mND"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="19"/>
+                                <state key="normal" title="PON Pertama di Tengah Kecamuk Perang ">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="olim" translatesAutoresizingMaskIntoConstraints="NO" id="5Pa-R8-Cg4">
+                                <rect key="frame" x="39" y="140" width="302" height="190"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="190" id="GGD-OP-PeS"/>
+                                    <constraint firstAttribute="width" constant="302" id="eOu-s0-AfC"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="gWa-AH-hS8">
+                                <rect key="frame" x="39" y="365" width="302" height="282"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="302" id="AaR-2R-rO9"/>
+                                    <constraint firstAttribute="height" constant="282" id="skf-hH-SMY"/>
+                                </constraints>
+                                <mutableString key="text">tirto.id - Dalam kondisi perang dan diblokade Belanda, pemerintah Indonesia tak gentar menggelar hajatan besar Pekan Olahraga Nasional (PON) pertama. Presiden Sukarno sendiri hadir dalam pembukaannya pada 9 September 1948. Suasana tegang ternyata juga tak menyurutkan antusiasme warga Surakarta untuk menyaksikan pembukaannya di Stadion Sriwedari.
+
+Sejumlah tamu penting juga hadir, di antaranya Menteri Pertahanan Sri Sultan Hamengkubuwono IX, Sri Susuhunan Pakubuwono XI, dan Panglima Besar TNI Jenderal Sudirman. Turut hadir pula anggota-anggota Komisi Tiga Negara (KTN)—komisi bentukan Dewan Keamanan PBB untuk menengahi konflik Indonesia-Belanda—yakni Merle Cochran (mewakili Amerika Serikat), Thomas Critchley (Australia), dan Paul van Zeeland (Belgia); Konsul Jenderal Inggris Shepherd; serta Konsul Jenderal India Raghavan beserta wakilnya Mohammad Yunus.
+
+Penyelenggaraan PON I juga mengandung pesan politik: menunjukkan kepada Belanda bahwa Indonesia adalah negara berdaulat. Soal ini pun disinggung pula oleh Presiden Sukarno dalam pidato pembukaannya.
+
+“Pertama-tama mengucap syukur kepada Allah Subhanahuwata’ala bahwa PON berlangsung di alam merdeka bebas. Kemudian menyatakan perasaan bangga atas ikut serta pahlawan-pahlawan dari daerah-daerah pendudukan. Pemuda-pemuda dan pemudi-pemudi datang di Solo ini tidak untuk berolahraga saja, tapi terutama untuk menunjukkan semangat kemerdekaan yang menyala-nyala,” ujar Presiden Sukarno sebagaimana dikutip Merdeka 10 September 1948.
+
+Usai pidato pembukaan Sukarno itu, pesta pembukaan pun dimulai dengan 13 kali dentuman meriam dan defile kontingen daerah peserta. Warga Surakarta yang menyemut di Stadion Sriwedari juga dihibur dengan senam pencak silat massal oleh murid-murid sekolah dasar.
+
+Bertahun kemudian, peristiwa itu diabadikan sebagai Hari Olahraga Nasional yang diperingati setiap tahun.
+Akibat Menolak Olimpiade
+PON I di Surakarta digelar sebagai antitesis Olimpiade London 1948. Persatuan Olahraga Republik Indonesia (PORI) yang terbentuk pada Januari 1946 sebelumnya berupaya agar Indonesia bisa ikut dalam Olimpiade. Untuk menunjukkan keseriusan Indonesia, PORI pun membentuk Komite Olimpiade Republik Indonesia (KORI), yang diketuai Sri Sultan Hamengku Buwono IX.
+
+Sayang, PORI kala itu belum menjadi anggota International Olympic Committee (IOC). Indonesia pun belum memenuhi satu syarat lainnya: terdaftar sebagai anggota PBB. Pengakuan internasional atas kedaulatan Indonesia pun masih minim, sehingga tipis harapan bisa berkompetisi di Olimpiade.
+
+Meski demikian, Indonesia tetap mendapat undangan IOC sebagai observer (peninjau). Menindaklanjuti undangan itu KORI dan PORI membentuk delegasi yang terdiri dari Sultan Hamengkubuwono IX, Letkol Azis Saleh (wakil ketua bagian atletik PORI), dan Mayor Maladi (ketua bagian sepakbola PORI).
+
+Namun, lagi-lagi keberangkatan delegasi terganjal karena diharuskan menggunakan paspor Belanda. Delegasi Indonesia akhirnya memilih tak berangkat daripada harus menggunakan paspor Belanda.
+
+Sorip Harahap dalam Pekan Olahraga Nasional I-X: Sejarah Ringkas dan Perkembangannya (1985) menyebutkan bahwa masalah ini kelak dibahas dalam konferensi darurat PORI pada Mei 1948. Bertempat di kediaman Soerio Hamidjojo—anggota BP KNIP mewakili keraton Surakarta yang juga ketua seksi tenis PORI—acara itu dihadiri wakil-wakil PORI daerah, Menteri Pembangunan dan Pemuda Wikana, serta Menteri Pengajaran dan Kebudayaan Ali Sastroamidjojo.
+
+Konferensi tersebut menghasilkan kesepakatan: jika Indonesia tak bisa ikut olimpiade, maka suatu pekan olahraga level nasional akan diadakan. PORI bisa berkaca pada ISI sportweek yang pernah diadakan Ikatan Sport Indonesia di Solo pada 1938. Keputusan pun diambil: PORI akan mengadakan PON di Surakarta antara bulan Agustus atau September tahun itu juga.
+
+“Ditilik dari penyediaan sarana olahraga, Solo dapat memenuhi persyaratan pokok, dengan adanya stadion Sriwedari serta kolam renang, dengan catatan Sriwedari pada masa itu, termasuk yang terbaik di Indonesia,” tulis Sorip Harahap (hlm. 2).
+
+Pesta Olahraga di Kota Koboi
+Pemilihan Surakarta sebenarnya cukup riskan. Pasalnya, kota itu menjadi basis beberapa satuan tentara dan laskar dengan beragam aliran politik. Tak jarang, ketegangan merebak di antara mereka. Kebijakan rasionalisasi yang dilakukan Perdana Menteri Mohammad Hatta mempertajam gesekan itu.
+
+Dua hari menjelang pembukaan PON I, suasana Surakarta justru memanas. Beberapa perwira Divisi IV Panembahan Senopati diculik. Penculiknya diduga dari satuan Divisi Siliwangi yang hijrah dari Jawa Barat. Suasana tambah tegang karena komandan Divisi Penembahan Senopati Letkol Soeadi mengultimatum Divisi Siliwangi.
+
+“Selambat-lambatnya pada 13 September pukul 14.00 orang-orang yang hilang harus dibebaskan. Jika tidak, serangan akan dilakukan,” demikian bunyi ultimatum itu sebagaimana dicatat Harry A. Poeze dalam Madiun 1948: PKI Bergerak (2011, hlm. 115).
+
+Batas ultimatum sengaja ditetapkan sehari setelah PON I berakhir untuk menjaga situasi tetap kondusif. Yang terang, suasana gelisah itu tak menyurutkan persiapan PON I. Bung Karno sendiri meminta PON I tetap dilaksanakan sesuai rencana.
+
+
+Infografik Mozaik Sejarah Pekan Olahraga Nasional
+
+
+Guna mengamankan pelaksanaan PON I, pemerintah menugaskan tentara Siliwangi. Harry A. Poeze mencatat, “Komandan Militer Kota Achmadi mengkonsinyasi semua pasukan di kesatrian masing-masing; ia juga melarang semua pengunjung PON membawa senjata, namun pengawasan tidak dilakukan dengan cukup memadai.”
+
+Menumpuknya satuan-satuan tentara dan laskar di Surakarta dan sekitarnya membawa masalah tersendiri karena kebanyakan mereka tidak mengindahkan perintah Achmadi. Banyak tentara masuk Stadion Sriwedari dengan tetap membawa senjata.
+
+Menurut Padmosumasto, atlet lompat tinggi yang juga panitia PON I, tak jarang ada saja Tentara Pelajar yang menembak ke udara di tengah pertandingan tanpa jelas sebabnya. “Konon pernah terjadi, pasukan dari Jawa Timur melepas tembakan menembus atap seng stadion. Ini terjadi karena sementara menonton, mereka mendengar Belanda menyerbu Malang Selatan,” ujar Padmosumasto sebagaimana dikutip Kompas (9/9/1983).
+
+Kejadian semacam itu tentu saja bikin penonton panik dan membuat petugas keamanan repot. Bahkan, Jenderal Sudirman pernah harus turun tangan untuk menenangkan pasukan Tentara Pelajar yang gugup dan kacau-balau. “Dengan insiden ini acara berjalan terus; namun di dalam kota sendiri, untuk sementara, tidak terdengar suara senjata,” tulis Harry A. Poeze (hlm. 114).
+
+Berakhir Mulus
+Dwi Suprandari dalam artikel “Mengenang Pekan Olahraga Nasional Pertama di Solo” yang tayang di Kompas (8/9/1983) menyebutkan, PON I diikuti oleh 13 daerah. Semuanya dari Jawa karena blokade Belanda membuat perwakilan daerah luar mustahil diundang dan datang. Daerah-daerah peserta PON I di antaranya adalah Yogyakarta, Surakarta, Surabaya, Malang, Kediri, Madiun, Semarang, Pati, Kedu, Magelang, Banyumas, Bandung, dan Jakarta.
+
+Ada sembilan cabang olahraga dipertandingkan dalam PON I: atletik, bola keranjang (korfball), bulutangkis, tenis, renang, panahan, sepakbola, basket, dan anggar.
+
+Pada 12 September 1948, sesuai jadwal yang ditetapkan, PON I secara resmi berakhir dengan Surakarta tampil sebagai juara umum. Tuan rumah merajai cabang sepakbola, bulutangkis, renang, panahan, dan pencak silat. Juara kedua ditempati Yogyakarta, disusul Kediri sebagai juara ketiga.
+
+Secara umum PON I berlangsung aman meskipun sempat terjadi insiden-insiden kecil di lapangan. Penonton pun antusias menonton pesta olahraga nasional pertama di Indonesia itu.
+
+“Sambutan luar biasa terhadap PON I terbukti dari jumlah sekitar 40.000 penonton, yang setia mempersaksikan pertandingan, [...] Banyak dari penonton ini yang datang dari daerah-daerah di luar Surakarta dan semuanya telah menjadi saksi atas kemeriahan upacara pembukaan PON I” tulis Sorip Harahap (hlm. 7).</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="VS6-au-fjX" firstAttribute="leading" secondItem="QnT-Lw-eR1" secondAttribute="leading" constant="16" id="0it-Ic-kNW"/>
+                            <constraint firstItem="Wir-JY-odj" firstAttribute="trailing" secondItem="QnT-Lw-eR1" secondAttribute="trailing" id="5Hh-Y5-KMz"/>
+                            <constraint firstItem="Wir-JY-odj" firstAttribute="top" secondItem="flw-Gx-y8S" secondAttribute="top" id="CZf-oX-WD7"/>
+                            <constraint firstItem="QnT-Lw-eR1" firstAttribute="bottom" secondItem="gWa-AH-hS8" secondAttribute="bottom" constant="20" id="KOn-sd-Iew"/>
+                            <constraint firstItem="5Pa-R8-Cg4" firstAttribute="top" secondItem="VS6-au-fjX" secondAttribute="bottom" constant="29" id="PAh-d6-nUz"/>
+                            <constraint firstItem="QnT-Lw-eR1" firstAttribute="trailing" secondItem="VS6-au-fjX" secondAttribute="trailing" constant="16" id="YDO-lT-6d0"/>
+                            <constraint firstItem="Wir-JY-odj" firstAttribute="bottom" secondItem="QnT-Lw-eR1" secondAttribute="bottom" id="Yfz-2g-dYD"/>
+                            <constraint firstItem="5Pa-R8-Cg4" firstAttribute="leading" secondItem="QnT-Lw-eR1" secondAttribute="leading" constant="39" id="cSm-BQ-4E2"/>
+                            <constraint firstItem="QnT-Lw-eR1" firstAttribute="trailing" secondItem="5Pa-R8-Cg4" secondAttribute="trailing" constant="34" id="fwI-dD-4bF"/>
+                            <constraint firstItem="Wir-JY-odj" firstAttribute="leading" secondItem="QnT-Lw-eR1" secondAttribute="leading" id="nbM-hb-vUq"/>
+                            <constraint firstItem="VS6-au-fjX" firstAttribute="top" secondItem="QnT-Lw-eR1" secondAttribute="top" constant="21" id="ncP-PW-bhi"/>
+                            <constraint firstItem="QnT-Lw-eR1" firstAttribute="trailing" secondItem="gWa-AH-hS8" secondAttribute="trailing" constant="34" id="npt-oG-7aD"/>
+                            <constraint firstItem="gWa-AH-hS8" firstAttribute="leading" secondItem="QnT-Lw-eR1" secondAttribute="leading" constant="39" id="twn-26-Hxa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="QnT-Lw-eR1"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ss3-d6-C7L" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1087.2" y="1127.5862068965519"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="W88-Bh-bAn">
+            <objects>
+                <viewController id="EWu-6R-3Gv" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0RB-jt-3RC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-map" translatesAutoresizingMaskIntoConstraints="NO" id="IhH-7B-4Wt">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="Py0-0K-TX5"/>
+                                    <constraint firstAttribute="height" constant="667" id="oD0-zC-q6b"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EDz-Lb-28L">
+                                <rect key="frame" x="16" y="84" width="333" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="7GS-jD-dLV"/>
+                                    <constraint firstAttribute="width" constant="333" id="D2D-x1-O3C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="13"/>
+                                <state key="normal" title="Kala Pemuda Republik Mengambilalih Djawatan Kereta Api">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FRY-z4-IIB">
+                                <rect key="frame" x="34" y="343" width="315" height="304"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="315" id="I6s-bX-txj"/>
+                                    <constraint firstAttribute="height" constant="304" id="jm0-7F-X0Y"/>
+                                </constraints>
+                                <mutableString key="text">tirto.id - Pemerintah kolonial Belanda tak menempatkan kantor pusat jawatan kereta api di Jakarta, tapi di Bandung. Kantornya tidak jauh dari Stasiun Bandung dan Gedung Landraad (pengadilan rendah) tempat Sukarno pernah diadili. 
+
+Kantor yang dikenal sebagai Balai Besar itu akhirnya diduduki Jepang. Di zaman Jepang, menurut O.I. Nanulaita dalam Ir H. Djuanda: Negarawan, Administrator dan Teknokrat Utama (2001), perusahaan macam Staats Spoorwagon (SS) ditiadakan oleh petinggi militer. Kereta api digunakan untuk kepentingan militer saja, bukan pelayanan publik (hlm. 75).
+
+Pada zaman Jepang, banyak orang Indonesia bekerja di Balai Kereta Api Bandung. Tokoh Himpunan Mahasiswa Islam (HMI) yang pernah jadi Kepala Bulog, Achmad Tirtosudiro, dan Kepala Staf Angkatan Laut Eddy Martadinata bekerja di sana. 
+
+Menurut buku 70 Tahun Achmad Tirtosudiro: Profil Prajurit Pengabdi (1992:18), Achmad Tirtosudiro bergaji 65 gulden tiap bulan. Sementara itu, menurut buku Laksamana R.E. Martadinata (1977), Eddy Martadinata digaji 50 gulden tiap bulan. Angka yang lumayan besar. Setidaknya mereka bisa bebas dari kelaparan di zaman Jepang. 
+
+Baca juga:
+Mei 1923: Aksi Mogok Buruh Kereta Api yang Bikin Sewot Pemerintah
+Jejak Jalur Kereta Api Pertama di Jawa
+
+Selain mereka berdua, buku yang mengenang Achmad Tirtosudiro itu juga menyebut alumni balai besar lainnya adalah Mayor Jenderal Aang Kunaefi (Gubernur Jawa barat), Sarbini Sumawinata (guru besar ekonomi UI), Haryono (Direktur Pertamina), dan Wiweko Supeno (Direktur Garuda).
+
+Martadinata tidak lama di sana, sebab dia harus kembali ke dunianya: laut. Sementara Achmad Tirtosudiro masih bekerja di sana hingga Indonesia merdeka. 
+
+Para Pemuda Mengambilalih
+Setelah proklamasi dikumandangkan Sukarno dan Hatta, Republiken di Bandung tak langsung mengambilalih Balai Besar.
+
+Dalam pikiran pemuda-pemuda, fasilitas publik sudah tentu harus berada di tangan Republik Indonesia. Di kota Jakarta, pada 3 September 1945, para pemuda yang menjadi buruh kereta api bergerak mengambilalih aset Djawatan Kereta Api yang dikuasai Jepang, seperti depot Jatinegara, bengkel Manggarai, dan lainnya. 
+
+Namun, di awal September itu, pusat segala kegiatan kereta api di Jawa belum dikuasai. Kantor Besar Kereta Api di Bandung masih berada dalam genggaman Jepang. 
+
+Banyak pemuda yang bekerja di kereta api berorganisasi dalam Angkatan Moeda Kereta Api (AMKA). Menurut Razif dalam artikel berjudul "Buruh Kereta Api dan Komunitas Buruh Manggarai" yang terdapat di buku Dekolonisasi Buruh Kota dan Pembentukan Bangsa (2013: 93), AMKA berbaur dengan Serikat Buruh Kereta Api (SBKA) ketika Revolusi meletus.
+
+Baru pada akhir September, para buruh dan pemuda mulai bergerak. Gejolak pengambilalihan aset pun terjadi di Bandung. 
+
+“Pengambilalihan Djawatan Kereta Api Pada 27 September 1945, Angkatan Muda PTT (Perusahaan Pos, Telegraph, Telepon) di bawah pimpinan Soetoko dan Nawawi Alif, menguasai kantor Pusat PTT,” tutur Achmad Tirtosudiro dalam Jenderal dari Pesantren Legok: Memoar 80 Tahun Achmad Tirtosudiro (2002: 43).
+
+Esoknya, 28 September 1945, tepat hari ini 73 tahun lalu, barulah tempat kerja Achmad, yang disebut Djawatan Kereta Api (DKA) itu, yang diambilalih. 
+
+Menurut buku Selayang Pandang Sejarah Perkeretaapian Indonesia 1867-2014 (2015:86), dalam peristiwa itu Ismangil dan para pemuda yang bekerja di kereta api menyatakan sikapnya: mulai hari itu, kekuasaan perkeretaapian dipegang Republik Indonesia dan orang-orang Jepang diharamkan ikut campur. Dalam acara pengambilalihan itu, para pemuda menyanyikan lagu "Indonesia Raya".
+
+Dalam peristiwa ini, Ir. Djuanda Kartawidjaja, teknokrat Sunda dan aktivis pergerakan nasional, dianggap sebagai pemimpinnya. Achmad Tirtosudiro juga mengaku bahwa dia berperan di dalamnya. “Dalam peristiwa ini, saya terlibat dalam perundingan tentang nasib DKA,” tutur Achmad. 
+
+Disebutkan pula dalam Jenderal dari Pesantren Legok bahwa setelah mendengar Jepang kalah dari Sekutu, Achmad dan kawan-kawan mengibarkan bendera Merah-Putih di Balai Besar Djawatan Kereta Api. Tak lupa, mereka juga mengeluarkan pekik merdeka.
+
+Fenomena pengambilalihan aset kereta api terlihat dalam coretan "Repoeblik Indonesia" pada gerbong trem di Surabaya atau Stasiun Jakarta Kota yang diberi papan nama "Djawatan Kereta Api Repoeblik Indonesia".
+
+Peristiwa pengambilalihan Balai Besar di Bandung pada 28 September 1945 itu kemudian ditetapkan sebagai tonggak berdirinya Djawatan Kereta Api Repoeblik Indonesia (DKARI). Pada 1 Januari 1946, dewan pimpinan kereta api yang dibentuk mengurus aset-aset yang diambil dari Jepang menyerahkan kekuasaannya pada DKA.
+
+Pada awal 1946 itu pula, berdasarkan Maklumat Kementerian Perhubungan nomor 1/KA tanggal 23 Januari 1946, Ir. Djuanda ditunjuk menjadi Kepala DKARI dan Mr. Soewahjo Soemodilaga sebagai Wakil Kepala. Menteri Perhubungan kala itu adalah Abikusno Tjokrosujoso.
+
+Baca juga: Deklarasi Djuanda dan Ikhtiar Menyatukan Laut Indonesia
+
+Infografik Mozaik Djawatan Kereta Api Repoeblik Indonesia
+
+Mengatasi Kesemrawutan
+Semasa memimpin di Bandung, Djuanda dan jajarannya tak bisa bekerja dengan leluasa karena gangguan militer Sekutu. Apalagi pada Maret 1946, kondisi Bandung memanas. O.I. Nanulaita menyebut, “Ir Djuanda masih baru dalam masalah perkeretaapian. Ia ditugaskan pemerintah mengatur kembali perkeretaapian yang sudah sejak zaman Jepang kacau balau” (hlm. 74).
+
+Menurut Nanulaita, bepergian dengan kereta api adalah siksaan tersendiri. “[...] gerbong rusak, kotor, kursi-kursi robek penuh kutu busuk, kakus hancur dan berbau busuk. Setiap kereta api penuh sesak, penumpang, pedagang-pedagang dengan barang-barangnya, tukang copet, pencoleng dan pengemis memadati gerbong-gerbong sampai lokomotif.”
+
+Sayangnya, kemerdekaan dimaknai dengan ngawur oleh sebagian orang Indonesia. Mentang-mentang merdeka, mereka tidak mau bayar jika naik kereta api. Tak hanya itu, Nanulaita mencatat penumpang kadang keluar lewat jendela. Bila gerbong tak muat, mereka naik di atas atap kereta api.
+
+Djuanda tentu bertugas mengatasi kekacauan-kekacauan itu. Belum juga rampung tugasnya, jabatan baru datang untuk Djuanda. Perdana Menteri Sjahrir, dalam Kabinet Sjahrir II, mengangkat Djuanda sebagai Menteri Muda Perhubungan mendampingi Ir. Abdoelkarim. Mereka berdua sama-sama lulusan Technische Hoogeschool (THS), yang kini jadi Institut Teknologi Bandung (ITB).
+
+Lantaran kereta api adalah alat perhubungan penting, demi segera menuntaskan masalah bekas tawanan perang dan membantu pemulangan tentara Jepang yang sudah menyerah, DKA mau tidak mau terlibat di dalamnya. Sebelum Djuanda jadi Kepala DKA, orang-orang Republik di DKA berperan dalam pemindahan Sukarno-Hatta beserta jajaran pemerintahan RI dari Jakarta ke Yogyakarta. Mereka menaiki apa yang disebut dengan "Kereta Api Loear Biasa" (KLB).
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kereta" translatesAutoresizingMaskIntoConstraints="NO" id="hTM-sY-j4x">
+                                <rect key="frame" x="34" y="122" width="303" height="213"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="213" id="8mc-5s-S9s"/>
+                                    <constraint firstAttribute="width" constant="303" id="g9B-Hi-G8h"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="5jZ-8q-x8N" firstAttribute="trailing" secondItem="FRY-z4-IIB" secondAttribute="trailing" constant="26" id="9zm-uF-30H"/>
+                            <constraint firstItem="IhH-7B-4Wt" firstAttribute="bottom" secondItem="5jZ-8q-x8N" secondAttribute="bottom" id="EgB-MG-AOE"/>
+                            <constraint firstItem="5jZ-8q-x8N" firstAttribute="trailing" secondItem="EDz-Lb-28L" secondAttribute="trailing" constant="26" id="QWq-MY-OL0"/>
+                            <constraint firstItem="hTM-sY-j4x" firstAttribute="top" secondItem="EDz-Lb-28L" secondAttribute="bottom" constant="8" id="S16-ws-bjK"/>
+                            <constraint firstItem="EDz-Lb-28L" firstAttribute="top" secondItem="5jZ-8q-x8N" secondAttribute="top" constant="20" id="UrU-hl-XUA"/>
+                            <constraint firstItem="IhH-7B-4Wt" firstAttribute="leading" secondItem="5jZ-8q-x8N" secondAttribute="leading" id="Xy4-yq-gSB"/>
+                            <constraint firstItem="5jZ-8q-x8N" firstAttribute="bottom" secondItem="FRY-z4-IIB" secondAttribute="bottom" constant="20" id="YAd-Hs-BXg"/>
+                            <constraint firstItem="IhH-7B-4Wt" firstAttribute="top" secondItem="0RB-jt-3RC" secondAttribute="top" id="ZUB-tm-Wvu"/>
+                            <constraint firstItem="5jZ-8q-x8N" firstAttribute="trailing" secondItem="hTM-sY-j4x" secondAttribute="trailing" constant="38" id="beO-HL-L78"/>
+                            <constraint firstItem="hTM-sY-j4x" firstAttribute="leading" secondItem="5jZ-8q-x8N" secondAttribute="leading" constant="34" id="fv1-Yq-Dzb"/>
+                            <constraint firstItem="IhH-7B-4Wt" firstAttribute="trailing" secondItem="5jZ-8q-x8N" secondAttribute="trailing" id="jLZ-9G-uw7"/>
+                            <constraint firstItem="FRY-z4-IIB" firstAttribute="leading" secondItem="5jZ-8q-x8N" secondAttribute="leading" constant="34" id="jjb-q6-h0w"/>
+                            <constraint firstItem="EDz-Lb-28L" firstAttribute="leading" secondItem="5jZ-8q-x8N" secondAttribute="leading" constant="16" id="vxy-qK-2hc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="5jZ-8q-x8N"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QJ5-he-AYN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1205.5999999999999" y="1128.4857571214393"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="rUG-Hl-muj">
+            <objects>
+                <viewController id="XFV-eW-RYL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="EhV-Y1-WVc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="peta" translatesAutoresizingMaskIntoConstraints="NO" id="qDq-4E-ivu">
+                                <rect key="frame" x="16" y="125" width="334" height="208"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="208" id="SB4-Se-RM6"/>
+                                    <constraint firstAttribute="width" constant="334" id="zjF-uz-k17"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fyf-fS-RD5">
+                                <rect key="frame" x="16" y="87" width="343" height="27"/>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="12"/>
+                                <state key="normal" title="Terbentuknya PETA &amp; Cara Membela Tanah Air Gatot Mangkoepradja">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="kgg-aL-1Q5">
+                                <rect key="frame" x="16" y="356" width="334" height="291"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="291" id="azd-qC-HDU"/>
+                                    <constraint firstAttribute="width" constant="334" id="gtQ-vc-AlU"/>
+                                </constraints>
+                                <mutableString key="text">tirto.id - Pada 4 Oktober 1963, Gatot Mangkoepradja meninggal dunia. Pada batu nisannya di kompleks pemakaman umum Sirnaraga, Kota Bandung, terukir logo berupa topi baja dalam naungan padi dan kapas. Ada tulisan PETA di situ, diikuti dengan barisan kata selanjutnya: 
+
+Perintis Kemerdekaan RI
+Bapak Pendiri Tentara Sukarela
+Pembela Tanah Air
+
+Gatot Mangkoepradja adalah orang yang paling bertanggungjawab atas lahirnya pasukan Pembela Tanah Air (PETA). Organ paramiliter bentukan Jepang yang terdiri dari kaum muda Indonesia ini dibentuk atas usulannya pada 3 Oktober 1943, tepat hari ini 75 tahun lalu.
+
+Pembentukan PETA berawal dari surat Gatot Mangkoepradja kepada Gunseikan, pemimpin tertinggi pemerintahan militer Dai Nippon yang berkedudukan di Jakarta. Dalam surat itu, ia memohon agar Jepang membentuk barisan pemuda lokal untuk membela tanah air dari ancaman Sekutu dalam Perang Asia Timur Raya.
+
+Permintaan Gatot Mangkoepradja dipenuhi yang kemudian melahirkan PETA. Nantinya, kaum prajurit jebolan PETA inilah yang menjadi salah satu pilar utama terbentuknya Tentara Keamanan Rakyat (TKR) setelah Indonesia merdeka. TKR adalah cikal-bakal Tentara Nasional Indonesia (TNI).
+
+Surat Gatot Mangkoepradja
+Dalam suratnya kepada Gunseikan, Gatot Mangkoepradja mula-mula menghaturkan terima kasihnya kepada pasukan Dai Nippon yang telah mengusir Belanda dari bumi Indonesia. Dengan pertolongan Jepang, tulisnya, rakyat Indonesia terbebas dari cengkeraman Belanda dan bangsa-bangsa Barat lainnya yang telah berkuasa selama berabad-abad.
+
+"Rakyat Indonesia sekarang sudah insyaf dan sudah hidup semangatnya untuk bekerja memperkuat garis belakang dari Perang Asia Timur Raya ini," sebutnya seperti tercantum dalam Surat Gatot Mangkoepradja Dipersembahkan ke Hadapan Padoeka Jang Moelja Tuan Gunseikan di Djakarta (1943).
+
+Gatot Mangkoepradja merasa bahwa inilah saatnya rakyat Indonesia memberikan sumbangsih untuk membela tanah air, dengan cara membantu Jepang dalam menghadapi Inggris, Amerika, dan sekutu-sekutunya, termasuk Belanda.
+
+“Bahwa hamba sampai mengharapkan, bangsa Indonesia bukan saja tinggal di belakang dan memperkuat garis belakang, akan tetapi juga turut terjun ke medan perang, ikut melawan dan meruntuhkan kekuasaan Inggris, Amerika, dan sekutunya,” lanjut Gatot Mangkoepradja dalam suratnya itu.
+
+“Bahwa boleh jadi pada masa sekarang bangsa Indonesia tentu belum cukup cerdas dan tangkas untuk bertempur di garis muka. Akan tetapi, hamba percaya dan yakin, bahwa di bawah pimpinan balatentara Dai Nippon, bangsa Indonesia tentu akan cakap menjaga dan membela Pulau Jawa (Indonesia).”
+
+“Bahwa sekarang, menurut penglihatan hamba, semangat untuk menggerakkan diri dalam suatu ‘Barisan Pemuda’ sudah timbul di dalam hati sanubari bangsa Indonesia. Bahwa semangat ini, di bawah pemeliharaan dari pemerintah balatentara Dai Nippon, tentu akan hidup”.
+
+Baca juga:
+Parade Paramiliter dalam Sejarah Indonesia
+Tentara PETA adalah Paramiliter Berbayar
+
+Gatot Mangkoepradja memungkasi suratnya dengan mengajukan permohonan serius:
+
+“[…] maka hamba sangat memohon ke hadapan Paduka Yang Mulia (Gunseikan) sudilah kiranya memberi kesempatan kepada hamba untuk menyusun barisan pembela itu di bawah pimpinan balatentara Dai Nippon yang sungguh-sungguh hendak turut membela dan mempertahankan kedudukan dan keselamatan Pulau Jawa dan penduduknya.”
+
+Dalam riwayat perjuangan bangsa Indonesia, Gatot Mangkoepradja bukan orang sembarangan kendati pamornya kurang mengkilap ketimbang tokoh-tokoh nasional lainnya macam Sukarno atau Mohammad Hatta. 
+
+Tokoh kelahiran Sumedang ini sudah terlibat dalam pergerakan nasional sejak usia remaja. Saat berumur 17, Gatot menempati posisi penting dalam perkumpulan Bond van Inheemsche Studeerenden yang nantinya menjadi salah satu unsur penting dalam terbentuknya Jong Java.
+
+Gatot Mangkoepradja termasuk tokoh pendiri Partai Nasional Indonesia (PNI) pada 4 Juli 1927 di Bandung. Dan bersama Sukarno serta sejumlah tokoh lainnya, ia ditangkap aparat Hindia Belanda di Yogyakarta, kemudian dijebloskan ke penjara di Bandung, yang berujung dalam momen “Indonesia Menggugat” tahun 1929.
+
+Kendati tidak selalu sepakat dengan gaya main Sukarno, namun Gatot Mangkoepradja tetap menjadi pendukung setia karibnya itu hingga akhir hayat.
+
+Infografik Mozaik pembela tanah air
+
+Bumerang untuk Jepang
+Atas usulan Gatot Mangkoepradja itulah Jepang lalu membentuk PETA secara resmi pada 3 Oktober 1943. Jepang sejatinya telah menunggu saat-saat seperti ini. Menurut Nugroho Notosusanto dalam Tentara PETA pada Jaman Pendudukan Jepang di Indonesia (1979), prakarsa untuk membentuk pasukan tambahan—yang terdiri dari orang-orang lokal—memang harus datang dari seorang pemimpin Indonesia (hlm. 69).
+
+Ternyata banyak pemuda yang berminat. Beruntunglah Gatot lantaran perkiraannya tepat. Anak-anak muda dari berbagai daerah, seperti diungkapkannya dalam The Peta and My Relations with the Japanese (1968), ingin menjadi bagian dari pasukan pembela tanah air yang digagasnya itu (hlm. 115).
+
+Jepang lalu mendirikan pusat pelatihan militer di Bogor, yang kemudian didatangi para pemuda dari berbagai daerah. Selain itu, pemerintah Dai Nippon rupanya cukup piawai mengambil hati rakyat Indonesia. Tagline “Indonesia akan merdeka” dijadikan jargon resmi PETA yang membuat kaum pemuda semakin bersemangat untuk bergabung.
+
+PETA membesar dalam waktu yang relatif singkat, meski kebanyakan anggotanya tidak punya pengalaman dan kemampuan militer. Dalam The Blue-Eyed Enemy: Japan Against the West in Java and Luzon 1942-1945 (2014), Theodore Friend mengungkapkan, anggota PETA pernah mencapai jumlah 38 ribu orang dengan 69 batalyon. Jumlah ini 4 kali lebih banyak dari kekuatan tempur Jepang di negaranya (hlm. 170).
+
+Surat kepada Gunseikan barangkali sempat menjadi cibiran karena isinya yang memuji-muji Jepang dan bahkan terkesan menjilat. Namun, melihat kiprahnya selama pergerakan nasional, Gatot Mangkoepradja bukan tipikal orang yang tega “menjual” bangsanya. Ia tentunya punya pemikiran—atau setidaknya perkiraan—bahwa PETA nantinya akan amat berguna bagi perjuangan bangsa Indonesia menuju kemerdekaan.
+
+Prediksi Gatot rupanya tepat. PETA justru menjadi bumerang bagi Jepang saat perannya sangat dibutuhkan. Beberapa kali terjadi perlawanan anggota PETA terhadap Jepang di sejumlah daerah, termasuk di Blitar pada Februari 1945, di Cilacap pada April 1945, dan di Bandung pada Mei 1945.
+
+Setelah proklamasi Indonesia merdeka pada 17 Agustus 1945, PETA menjadi salah satu unsur penting dalam terbentuknya TKR, angkatan perang RI embrio TNI. Para mantan anggota PETA pun nantinya banyak yang menjadi tokoh militer terkemuka dalam riwayat ketentaraan nasional, salah seorang yang paling melegenda adalah Panglima Besar Jenderal Soedirman.
+
+Berkat usul Gatot Mangkoepradja yang terkesan pragmatis itu, lahirlah PETA. Dari situlah TKR kemudian terbentuk dan akhirnya menjadi TNI. Maka tidak berlebihan jika gelar Bapak Pembela Tanah Air disematkan kepada Gatot Mangkoepradja walaupun ia tidak menyandang ketenaran layaknya Pahlawan Nasional. Gatot punya cara sendiri untuk membela tanah airnya.
+
+==========
+
+Artikel ini pertama kali ditayangkan pada 3 Oktober 2017 dengan judul "Cara Membela Tanah Air Ala Gatot Mangkoepradja". Kami melakukan penyuntingan ulang dan menerbitkannya kembali untuk rubrik Mozaik.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-map" translatesAutoresizingMaskIntoConstraints="NO" id="xGC-lH-dZw">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="ips-28-8GR"/>
+                                    <constraint firstAttribute="height" constant="667" id="vxT-zk-0ak"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="K6X-Wn-Ys2" firstAttribute="trailing" secondItem="kgg-aL-1Q5" secondAttribute="trailing" constant="25" id="0R4-31-X0I"/>
+                            <constraint firstItem="K6X-Wn-Ys2" firstAttribute="bottom" secondItem="kgg-aL-1Q5" secondAttribute="bottom" constant="20" id="2OR-KN-dH2"/>
+                            <constraint firstItem="K6X-Wn-Ys2" firstAttribute="trailing" secondItem="Fyf-fS-RD5" secondAttribute="trailing" constant="16" id="AEV-96-jim"/>
+                            <constraint firstItem="xGC-lH-dZw" firstAttribute="bottom" secondItem="K6X-Wn-Ys2" secondAttribute="bottom" id="D0L-ME-Iii"/>
+                            <constraint firstItem="xGC-lH-dZw" firstAttribute="trailing" secondItem="K6X-Wn-Ys2" secondAttribute="trailing" id="IJA-by-DER"/>
+                            <constraint firstItem="K6X-Wn-Ys2" firstAttribute="trailing" secondItem="qDq-4E-ivu" secondAttribute="trailing" constant="25" id="RZz-if-O3o"/>
+                            <constraint firstItem="Fyf-fS-RD5" firstAttribute="leading" secondItem="K6X-Wn-Ys2" secondAttribute="leading" constant="16" id="a8k-zK-Lqq"/>
+                            <constraint firstItem="Fyf-fS-RD5" firstAttribute="top" secondItem="K6X-Wn-Ys2" secondAttribute="top" constant="23" id="fex-fz-NRj"/>
+                            <constraint firstItem="qDq-4E-ivu" firstAttribute="top" secondItem="Fyf-fS-RD5" secondAttribute="bottom" constant="11" id="fkf-qR-BvD"/>
+                            <constraint firstItem="kgg-aL-1Q5" firstAttribute="leading" secondItem="K6X-Wn-Ys2" secondAttribute="leading" constant="16" id="hPe-Gv-JmC"/>
+                            <constraint firstItem="xGC-lH-dZw" firstAttribute="top" secondItem="EhV-Y1-WVc" secondAttribute="top" id="hdF-sM-VYV"/>
+                            <constraint firstItem="xGC-lH-dZw" firstAttribute="leading" secondItem="K6X-Wn-Ys2" secondAttribute="leading" id="ihf-Mr-uQk"/>
+                            <constraint firstItem="qDq-4E-ivu" firstAttribute="leading" secondItem="K6X-Wn-Ys2" secondAttribute="leading" constant="16" id="nd1-HD-M3l"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="K6X-Wn-Ys2"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dZJ-d5-Ilm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1933.5999999999999" y="1128.4857571214393"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LKN-T1-tcJ">
+            <objects>
+                <viewController id="IOm-vd-vvA" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jRl-1d-13Z">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-map" translatesAutoresizingMaskIntoConstraints="NO" id="3tx-MY-huN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="QRb-13-rFN"/>
+                                    <constraint firstAttribute="height" constant="667" id="Swu-b7-FiP"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="g30s" translatesAutoresizingMaskIntoConstraints="NO" id="DdS-S9-cXg">
+                                <rect key="frame" x="28" y="122" width="318" height="214"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="318" id="07d-ln-V50"/>
+                                    <constraint firstAttribute="height" constant="214" id="gzy-hG-S80"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Jbg-Q6-AXE">
+                                <rect key="frame" x="16" y="84" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="ZQg-Wm-zQ1"/>
+                                    <constraint firstAttribute="height" constant="30" id="zjp-ud-Ie2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="15"/>
+                                <state key="normal" title="Ramai-Ramai Tak Mengakui G30S pada 3 Oktober 1965">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qrh-SQ-naq">
+                                <rect key="frame" x="28" y="344" width="318" height="303"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="303" id="YZy-eH-TLi"/>
+                                    <constraint firstAttribute="width" constant="318" id="a4j-Ly-H00"/>
+                                </constraints>
+                                <mutableString key="text">tirto.id - Angkatan Udara Republik Indonesia (AURI) adalah angkatan paling sial setelah 30 September 1965. Ketika ada pihak-pihak yang meragukan kesetiaan AURI kepada Presiden Sukarno, maka Sukarno sebaliknya. “Itu anak lanangku,” katanya, agar semua tahu AURI itu ibarat anak laki-laki yang bisa diandalkan.
+
+Hingga kini AURI rawan kena serang jika terkait isu G30S. Selain karena Pahlawan Revolusi terbunuh di Lubang Buaya yang tak jauh dari kompleks pangkalan udara Halim Perdana Kusumah, D.N. Aidit yang nebeng pesawat AURI ke Yogyakarta juga jadi bahan untuk menyudutkan institusi pertahanan udara ini. 
+
+Sebagai anak lanang, AURI pernah dibela Sukarno dalam sebuah pengumuman. 
+
+“Saudara-saudara sekalian. Berhubung dengan beberapa kesalah-pahaman yang dapat menimbulkan pertentangan tentara antara pihak-pihak dalam Angkatan Bersenjata, dan menghilangkan keraguraguan masyarakat, dan untuk membina kesatuan dan persatuan nasional yang lebih kokoh dalam rangka perjuangan dwikora dengan ini saya sebagai Presiden/Panglima Tertinggi ABRI/Pemimpin Besar Revolusi mengumumkan bahwa: 1. Tuduhan terhadap AURI tentang tersangkutnya dalam Gerakan 30 September ini adalah tidak benar; 2. Kepergian saya ke Pangkalan Udara Halim, pada tanggal 1 Oktober pagi-pagi adalah atas kehendak saya sendiri, karena saya berpendapat bahwa tempat yang terbaik bagiku adalah tempat dekat dengan kapal udara, yang dapat mengangkut saya tiap saat ke tempat lain kalau terjadi suatu yang tidak diharap; 3. Kita harus tetap waspada jangan sampai AURI dan Angkatan Darat dapat diadu-dombakan sehingga pihak nekolim dan pihak lain akan dapat keuntungannya,” kata Sukarno, seperti dikutip buku Kronik ’65 (2017: 307). 
+
+Dari pihak AURI sendiri, lewat Surat Pernyataan Nomor 5/207/65 lewat RRI, Laksamana Madya Omar Dani selaku Menpangau menyebut bahwa AURI tidak ada sangkut pautnya dengan G30S. Selain itu, AURI berdiri mendukung pembersihan unsur G30S.
+
+Baca juga: Dari Pesawat Bekas hingga Pesawat Radio: Kiprah Awal Angkatan Udara
+
+PKI Mulai Tertuduh
+Tak hanya AURI, Kronik ’65 (hlm. 300-323) menyebut, pada 3 Oktober 1965, tepat hari ini 53 tahun lalu, angkatan lain juga mengeluarkan pernyataan sikap dalam situasi kacau setelah 30 September 1965. Angkatan Laut Republik Indonesia (ALRI), lewat Deputi I Menpangal, Laksamana Madya Moeljadi, dengan atas nama Menpangal, mengeluarkan pernyataan sikap: ALRI tetap loyal kepada Presiden Sukarno dan siap sedia menerima komando dari Presiden. 
+
+Sementara itu, Angkatan Kepolisian Republik Indonesia (AKRI) memberi pernyataan bahwa perwira polisi yang ada dalam daftar Dewan Revolusi adalah tidak benar. Kepolisian siap menunggu perintah dari Mayor Jenderal Soeharto. Menteri Panglima Angkatan Kepolisian Sutjipto Joedodihardjo juga membantah dan tidak tahu apa-apa soal namanya tercantum dalam Dewan Jenderal.
+
+Departemen-departemen juga tidak ketinggalan. Departemen Urusan Perhubungan bersama alim ulama hanya mengakui kepemimpinan Presiden Sukarno dan menyatakan bahwa Gerakan 30 September dan Dewan Revolusinya adalah gerakan kontra-revolusioner. 
+
+Departemen Pekerjaan Umum (Bina Marga) juga menyatakan hal sama, tidak mengakui G30S dan tetap setia kepada Presiden Sukarno. 
+
+Sementara Departemen Perindustrian Dasar merilis Surat Pernyataan nomor 223/M/Perdas/65 yang mengimbau agar semua tugas dilaksanakan seperti biasa dan tetap berdiri di belakang presiden.
+
+Pada 3 Oktober 1965 itu pula, di Solo terjadi demonstrasi penolakan terhadap pendirian Dewan Revolusi. Bentrokan dengan orang-orang komunis juga terjadi. Buku Kronik ’65 (hlm. 302) mencatat, di Demak juga terjadi hal serupa. 
+
+Di Aceh sudah tersebar berita bahwa PKI adalah dalang G30S. Di hari itu juga, Brigadir Jenderal Ishak Djuarsa, selaku Panglima Daerah Pertahanan A dan Penguasa Pelaksana Dwikora Daerah (Papelrada) Aceh, lewat Surat Keputusan No.Kep/Papelrada-29/10/1965, membekukan semua kegiatan PKI.
+
+Baca juga:
+Arsip Rahasia AS: Ide Membunuh Marsekal Kesayangan Sukarno
+Arsip Rahasia AS: Laporan Intel AU Soal Situasi di Solo 1965
+
+infografik seri huru hara 3 oktober
+
+Jenazah Jenderal Ditemukan
+Setelah sulit untuk melaksanakan perintah Sukarno, karena terhalangi oleh Mayor Jenderal Soeharto pada hari-hari sebelumnya, Mayor Jenderal Pranoto Reksosamodra akhirnya menjalankan tugasnya sejak 3 Oktober 1965 selaku caretaker Menpangad. Di hari itu, Pranoto memberi pengumuman kepada jajaran Angkatan Darat. Mulai dari tamtama, bintara, hingga perwira.
+
+“TNI/Angkatan Darat sepenuhnya dan tanpa reserve setia dan patuh kepada Paduka Yang Mulia Presiden/Panglima Tertinggi ABRI/Pemimpin Besar Revolusi Bung Karno dan akan melaksanakan amanat beliau sebaik-baiknya,” kata Pranoto, seperti tercatat dalam Catatan Jenderal Pranoto Reksosamodra: dari RTM Boedi Oetomo sampai Nirbaya (2014: 192-193). 
+
+Selain itu, selaku caretaker Menpangad, Pranoto juga akan mendukung langkah-langkah daripada Panglima Kostrad Mayor Jenderal Soeharto dalam memulihkan keadaan Indonesia yang sedang kacau.
+
+Nan jauh di Kedung Tambun, seperti dicatat pula dalam Kronik ’65 (hlm. 312), sebanyak 20 personil Batalyon 454 yang kabur dari Halim Perdanakusumah setelah diserbu RPKAD berhasil ditangkap pada pukul 14.15. Kemungkinan mereka hendak kabur ke Jawa tengah. Malamnya, Njono, salah satu pimpinan PKI Jakarta, juga berhasil ditangkap di Salemba, Jakarta. Waktu tertangkap, dia mengaku bernama Sugijono.
+
+Jelang senja, sekitar pukul 17.15, lokasi jenazah para korban yang diculik dan terbunuh pada 1 Oktober 1965 berhasil ditemukan satuan Resimen Para Komando Angkatan Darat (RPKAD) di kawasan hutan karet Lubang Buaya. Penemuan itu berkat informasi dari Agen Polisi Tingkat II Sukitman, yang ikut terculik tapi tak dihiraukan pasukan penculik. 
+
+Malamnya, sekitar pukul 22.00, Letnan Dua Sintong Panjaitan melaporkan kepada Letnan Satu Feisal Tanjung soal penemuan itu. Berhubung hari sudah malam serta belum siap untuk melakukan pengangkutan, malam itu jenazah belum bisa diapa-apakan di lokasi penemuan.</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3tx-MY-huN" firstAttribute="leading" secondItem="Z4v-sx-9yE" secondAttribute="leading" id="13e-GA-xzg"/>
+                            <constraint firstItem="Z4v-sx-9yE" firstAttribute="trailing" secondItem="Jbg-Q6-AXE" secondAttribute="trailing" constant="16" id="3If-KS-z19"/>
+                            <constraint firstItem="Jbg-Q6-AXE" firstAttribute="leading" secondItem="Z4v-sx-9yE" secondAttribute="leading" constant="16" id="5CH-tK-QoG"/>
+                            <constraint firstItem="Z4v-sx-9yE" firstAttribute="trailing" secondItem="DdS-S9-cXg" secondAttribute="trailing" constant="29" id="Snw-aP-ux9"/>
+                            <constraint firstItem="3tx-MY-huN" firstAttribute="trailing" secondItem="Z4v-sx-9yE" secondAttribute="trailing" id="UNU-Yx-dEb"/>
+                            <constraint firstItem="Jbg-Q6-AXE" firstAttribute="top" secondItem="Z4v-sx-9yE" secondAttribute="top" constant="20" id="cPg-X3-kDO"/>
+                            <constraint firstItem="3tx-MY-huN" firstAttribute="bottom" secondItem="Z4v-sx-9yE" secondAttribute="bottom" id="eyU-ee-Fec"/>
+                            <constraint firstItem="Z4v-sx-9yE" firstAttribute="bottom" secondItem="Qrh-SQ-naq" secondAttribute="bottom" constant="20" id="fO2-h8-Qpg"/>
+                            <constraint firstItem="Qrh-SQ-naq" firstAttribute="leading" secondItem="Z4v-sx-9yE" secondAttribute="leading" constant="28" id="gQQ-fl-UUT"/>
+                            <constraint firstItem="Z4v-sx-9yE" firstAttribute="trailing" secondItem="Qrh-SQ-naq" secondAttribute="trailing" constant="29" id="rcr-KG-cTQ"/>
+                            <constraint firstItem="3tx-MY-huN" firstAttribute="top" secondItem="jRl-1d-13Z" secondAttribute="top" id="vIw-tz-Tux"/>
+                            <constraint firstItem="DdS-S9-cXg" firstAttribute="leading" secondItem="Z4v-sx-9yE" secondAttribute="leading" constant="28" id="zKn-nu-EVL"/>
+                            <constraint firstItem="DdS-S9-cXg" firstAttribute="top" secondItem="Jbg-Q6-AXE" secondAttribute="bottom" constant="8" id="zX5-Pq-pGM"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Z4v-sx-9yE"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pZv-Ps-TmK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2581.5999999999999" y="1128.4857571214393"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="B7z-oL-Aau">
+            <objects>
+                <viewController id="g02-Vl-wz6" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fsA-Z5-rUU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-map" translatesAutoresizingMaskIntoConstraints="NO" id="9mI-1v-jou">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="667" id="3QF-Qc-Is9"/>
+                                    <constraint firstAttribute="width" constant="375" id="Cb7-MY-oGU"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="q8z-ML-OhS">
+                                <rect key="frame" x="34" y="339" width="307" height="308"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="308" id="8FQ-RY-66j"/>
+                                    <constraint firstAttribute="width" constant="307" id="XBT-7Z-5my"/>
+                                </constraints>
+                                <mutableString key="text">tirto.id - Pagi itu, Markas Besar Angkatan Darat (MBAD) di sisi Jalan Veteran, sebelah utara Lapangan Monas, Jakarta, telah dipenuhi manusia. Kebanyakan dari mereka berseragam militer. Pada upacara Hari Ulang Tahun Angkatan Bersenjata Republik Indonesia (ABRI) tahun itu, di markas pusat Angkatan Darat, ada sesuatu yang berbeda.
+
+“Upacara pemakaman dimulai pukul 10.00 pagi di MBAD. Satu persatu jenazah dinaikkan ke atas panser, didampingi dan dikawal seorang perwira tinggi,” aku Marieke Panjaitan Boru Tambunan dalam DI Panjaitan: Gugur Dalam Seragam Kebesaran (1997: 167). 
+
+Tiap peti jenazah dibawa dengan kendaraan lapis baja. Tiap mendiang itu sudah digelari Pahlawan Revolusi dan dapat kenaikan pangkat satu tingkat. Para pengawal bersenjata juga ada di sana.
+
+Ketika orang-orang sudah ramai, datanglah ke upacara pemakaman itu seorang laki-laki berumur akhir 40-an dengan bertongkat dan dituntun beberapa orang agar bisa berjalan. Dia pernah lama jadi orang nomor satu di MBAD. Tentu saja banyak perwira di sana mengenalnya. Dialah Jenderal Abdul Haris Nasution.
+
+Baca juga: Abdul Haris Nasution Si Penggagas Dwifungsi ABRI
+
+Hari itu, Nasution didapuk menyampaikan sambutan.
+
+“Para prajurit sekalian, kawan-kawan sekalian, terutama rekan-rekan yang sekarang kami sedang lepaskan,” buka Nasution. 
+
+Dia tentu berat mengucapkannya. Dia tengah terpukul hari-hari itu. Bukan lantaran dia baru lolos dari percobaan penculikan (yang bisa membuatnya terbunuh). Hari itu, putri Nasution, yang terkena tembakan gerombolan penculik, sedang sekarat juga.
+
+“Bismillahirrahmanirrahiim,” lanjut Nasution dengan emosional. “Hari ini hari angkatan bersenjata kita, hari yang selalu gemilang. Tapi yang kali ini, hari yang dihinakan oleh fitnahan, dihinakan oleh pengkhianatan, dihinakan oleh penganiayaan.” 
+
+Tapi apapun kondisinya, hari perayaan itu tetaplah dirayakan. “Tetapi hari angkatan bersenjata kita, kita setiap prajurit tetap rayakan dalam hati sanubari kita, dengan tekad kita.”
+
+Satu persatu nama jenazah pun disebutkan. “Jenderal Suprapto, Jenderal Hartono [kemudian ralat] Haryono, Jenderal Parman, Jenderal Panjaitan, Jenderal Sutoyo, Letnan Tendean.” 
+
+Nasution meyakini mereka yang terbunuh sudah mengabdi setidaknya selama 20 tahun untuk Indonesia. Dalam pidato Nasution itu, terselip kalimat “fitnah lebih jahat dari pembunuhan, fitnah lebih jahat dari pembunuhan.”
+
+Di pagi yang muram itu, 5 Oktober 1965, tepat hari ini 53 tahun lalu, Angkatan Darat sangat berduka. Pada 1 Oktober 1965, lima perwira tinggi dan pucuk pimpinan AD diculik lalu dibunuh komplotan Letnan Kolonel Untung. Jenazah mereka ditemukan dalam kondisi buruk dan baru bisa diangkat dari sebuah sumur tua pada 4 Oktober 1965. Hari itu, para jenazah hendak dimakamkan ke Taman Makam Pahlawan Kalibata.
+
+Baca juga: Saracen: Dari Perang Salib Sampai Jenazah Pahlawan Revolusi
+
+Upacara yang Berlinang Air Mata
+Panglima Kostrad Mayor Jenderal Soeharto juga hadir di situ. Seperti diakui dalam autobiografinya, Soeharto: Pikiran Ucapan dan Tindakan Saya (1989), ia ingat betul perkataan Nasution tentang fitnah lebih kejam daripada pembunuhan. 
+
+Tentang para Pahlawan Revolusi itu, Soeharto meyakini bahwa “mereka itu adalah perwira-perwira yang telah mendharmabaktikan seluruh hidupnya untuk kepentingan tanah air dan bangsa” (hlm. 136).
+
+Dari MBAD, iringan jenazah Pahlawan Revolusi lalu melintasi Jalan Merdeka Timur, Cikini Raya, Salemba, Matraman Raya, Jatinegara, Cawang, Jalan Gatot Subroto, Pancoran, Jalan Pasar Minggu, lalu tiba di Taman Makam Pahlawan Kalibata.
+
+“Jalan yang ditempuh tidak kurang dari 20 kilometer jauhnya, sedang kendaraan pengiring berurut-urutan sepanjang 5 kilometer,” tutur Marieke dalam bukunya (hlm. 167). 
+
+Begitulah perayaan HUT ABRI pada 1965. Sepengakuan Marieke, “Peringatan HUT ABRI ke-20 tanggal 5 Oktober 1965 yang semula direncanakan dengan melakukan parade militer secara besar-besaran berubah menjadi suasana khidmat mengantar jenazah pahlawan yang gugur sebagai tumbal bagi tegaknya Republik Indonesia yang berfalsafah Pancasila.”
+
+Seperti upacara pemakaman lain, acara ini juga berlinangkan air mata. Data yang dihimpun dalam Kronik ’65 (2017: 363-364) menyebut, Nyonya Martadinata, istri Laksamana Martadinata, juga menangis seperti yang lainnya. Putri mendiang Jenderal Ahmad Yani tak disangsikan lagi. Sementara itu, Untung Yani, putra Jenderal Ahmad Yani, yang masih 12 tahun, pingsan ketika jenazah ayahnya dimasukkan ke liang kubur.
+
+Esoknya, 6 Oktober 1965, Jenderal Nasution yang belum sembuh luka di kakinya harus terima kenyataan sedih. Putri bungsunya, Ade Irma Suryani Nasution, harus mengembuskan napas terakhir. Ade Irma kemudian dimakamkan di dekat Kantor Wali Kota Jakarta Selatan pada hari berikutnya.
+
+Baca juga: Ade Irma Terbunuh Karena Jadi Perisai A.H. Nasution
+
+
+infografik seri huru hara 5 oktober
+
+
+Pada 6 Oktober 1965 itu pula, keponakan D.I. Panjaitan, Albert Naiborhu, anak dari Julia boru Panjaitan dengan Th. Naiborhu, juga harus dimakamkan. Albert sekarat karena terluka saat pamannya hendak dijemput pasukan penculik G30S.
+
+Semula, jenazah Albert hendak disemayamkan di rumah Jalan Cut Mutia atau Jalan Hasanuddin. Tapi pihak AD menyarankan di Rumah Sakit Gatot Subroto saja. Pada 6 Oktober 1965, pihak AD memakamkan Albert di lokasi yang sama dengan pamannya, di Taman Makam Pahlawan Kalibata.
+
+Baca juga: Pandjaitan, Asisten Logistik Andalan Angkatan Darat
+
+“Seluruh keluarga Panjaitan yang ada di Jakarta mengikuti upacara pemakaman tersebut,” aku Marieke. 
+
+Jadi bukan cuma hilang suami, Nyonya Panjaitan juga kehilangan keponakan. Seperti Nasution, yang tak cuma kehilangan junior, tapi juga putri bungsunya.
+
+“Bung Karno tak hadir dalam kesempatan pemakaman para pahlawan ini,” tutur Soeharto. 
+
+Pada 5 Oktober 1965 itu, Jakarta tidak aman bagi Sukarno. Demi keamanan, Sukarno tetap berada di istana. 
+
+Tahun berikutnya, Sukarno terlihat di makam Pahlawan Revolusi. Menurut pengakuan mantan ajudan Sukarno, Kolonel Maulwi Saelan, dalam buku Dari Revolusi '45 sampai Kudeta '66: Kesaksian Wakil Komandan Tjakrabirawa (2001: 316), pada 5 Oktober 1966 sore, Sukarno melakukan ziarah ke makam Pahlawan Revolusi di Kalibata. Di situ, ia menangisi kematian para jenderal.
+
+Seri Huru-Hara 1965:
+Drama G30S: Yang Terjadi pada 1 Oktober 1965
+Kala Soeharto Membantah Perintah Sukarno pada 2 Oktober 1965
+Ramai-Ramai Tak Mengakui G30S pada 3 Oktober 1965
+Dimulainya Hoaks Penyiksaan Para Jenderal pada 4 Oktober 1965</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="d1F-pO-rOX">
+                                <rect key="frame" x="16" y="85" width="343" height="27"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="9x6-wn-xis"/>
+                                    <constraint firstAttribute="height" constant="27" id="HGJ-v6-Em4"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="14"/>
+                                <state key="normal" title="Peringatan HUT ABRI Paling Kelam pada 5 Oktober 1965">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="vo" translatesAutoresizingMaskIntoConstraints="NO" id="z5t-aJ-IBn">
+                                <rect key="frame" x="34" y="120" width="307" height="211"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="307" id="1qX-j9-nPB"/>
+                                    <constraint firstAttribute="height" constant="211" id="zBL-1V-Jcq"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="uLs-vC-F6z" firstAttribute="trailing" secondItem="q8z-ML-OhS" secondAttribute="trailing" constant="34" id="5Di-JT-3Rn"/>
+                            <constraint firstItem="d1F-pO-rOX" firstAttribute="leading" secondItem="uLs-vC-F6z" secondAttribute="leading" constant="16" id="6kO-vV-CKA"/>
+                            <constraint firstItem="9mI-1v-jou" firstAttribute="top" secondItem="fsA-Z5-rUU" secondAttribute="top" id="Bot-se-GKo"/>
+                            <constraint firstItem="z5t-aJ-IBn" firstAttribute="leading" secondItem="uLs-vC-F6z" secondAttribute="leading" constant="34" id="H3n-fg-LM0"/>
+                            <constraint firstItem="9mI-1v-jou" firstAttribute="trailing" secondItem="uLs-vC-F6z" secondAttribute="trailing" id="Hkn-Hd-V8Q"/>
+                            <constraint firstItem="uLs-vC-F6z" firstAttribute="trailing" secondItem="z5t-aJ-IBn" secondAttribute="trailing" constant="34" id="N39-jR-9Md"/>
+                            <constraint firstItem="q8z-ML-OhS" firstAttribute="leading" secondItem="uLs-vC-F6z" secondAttribute="leading" constant="34" id="N8A-pw-5FM"/>
+                            <constraint firstItem="uLs-vC-F6z" firstAttribute="bottom" secondItem="q8z-ML-OhS" secondAttribute="bottom" constant="20" id="Yic-v6-amr"/>
+                            <constraint firstItem="9mI-1v-jou" firstAttribute="bottom" secondItem="uLs-vC-F6z" secondAttribute="bottom" id="eWb-FR-OI9"/>
+                            <constraint firstItem="d1F-pO-rOX" firstAttribute="top" secondItem="uLs-vC-F6z" secondAttribute="top" constant="21" id="ijF-vg-Vns"/>
+                            <constraint firstItem="9mI-1v-jou" firstAttribute="leading" secondItem="uLs-vC-F6z" secondAttribute="leading" id="m2Y-FQ-z3u"/>
+                            <constraint firstItem="z5t-aJ-IBn" firstAttribute="top" secondItem="d1F-pO-rOX" secondAttribute="bottom" constant="8" id="qMO-34-jnK"/>
+                            <constraint firstItem="uLs-vC-F6z" firstAttribute="trailing" secondItem="d1F-pO-rOX" secondAttribute="trailing" constant="16" id="vJT-ld-8iO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uLs-vC-F6z"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ztL-NM-rsw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3229.5999999999999" y="1127.5862068965519"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="bzQ-Wj-OUJ">
+            <objects>
+                <viewController id="Z1T-Wb-Sc3" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0bU-RM-G5G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="indonesia-map" translatesAutoresizingMaskIntoConstraints="NO" id="hWB-3I-s3i">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="SFK-XC-PnR"/>
+                                    <constraint firstAttribute="height" constant="667" id="a3G-91-blb"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MD4-sN-tI4">
+                                <rect key="frame" x="16" y="83" width="343" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="1pK-yu-UH5"/>
+                                    <constraint firstAttribute="height" constant="30" id="e1R-L6-Ocf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="BodoniSvtyTwoSCITCTT-Book" family="Bodoni 72 Smallcaps" pointSize="18"/>
+                                <state key="normal" title="Musso Gagal Menciptakan Ketertiban">
+                                    <color key="titleColor" red="0.036187341370000001" green="0.036187341370000001" blue="0.036187341370000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Isw-6x-Wu0">
+                                <rect key="frame" x="54" y="354" width="266" height="293"/>
+                                <color key="backgroundColor" red="0.71627141500000002" green="0.59717629039999998" blue="0.40895319819999998" alpha="0.38885916100000001" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="5fb-3W-r1G"/>
+                                    <constraint firstAttribute="height" constant="293" id="fhp-cW-8qU"/>
+                                </constraints>
+                                <mutableString key="text">tirto.id - Pada awal Agustus 1948, Musso kembali ke Indonesia. Dia tak sendiri. Dia bersama Suripno, Duta Besar RI di Praha, Cekoslowakia. Musso menyamar sebagai sekretarisnya. Mereka terbang dari Praha melewati Kairo, Rangoon, dan Bukittinggi. 
+
+“Ia tiba dari Bukittinggi dengan menggu­nakan pesawat terbang amfibi Catalina. Pendaratannya tidak menarik perhatian penduduk setempat,” tulis Soerjono dalam buku Surat Untuk Ben Anderson (2016: 55). Mereka mendarat di sekitar Campur Darat, selatan Tulungagung.
+
+“Dari Campur Darat, Musso menuju Yogyakarta, berhenti sejenak di Solo, tapi bukan di Madiun,” lanjut Soerjono. 
+
+Waktu Musso datang, Madiun belum jadi kota kiri. Meski saat itu sudah ada markas besar Badan Pekerja Kongres Pemuda pimpinan Sumarsono. Soal pertikaian antar-unit tentara dengan laskar atau antara laskar dengan laskar tidak separah di Solo. 
+
+Pada 2 Juli 1948, menurut catatan buku Siliwangi Dari Masa Ke Masa (1968: 234), Kolonel Soetarto, Panglima Divisi Penembahan Senopati, terbunuh di depan rumahnya di Solo. Ia dihabisi oleh orang-orang tak dikenal. 
+
+Menurut Harry Poeze dalam Madiun 1948: PKI Bergerak (2011: 102), pada 2 Juli 1948 itu, Komandan Militer Kota Solo mendatangi Omon Abdurachman di Markas Besar Siliwangi di Solo. Dia memperlihatkan peci dan lencana Siliwangi di lokasi terbunuhnya Kolonel Soetarto. Omon bilang ke Achmadi, seorang pembunuh tak mungkin tinggalkan jejaknya seperti itu. Setelahnya, tak pernah jelas siapa pembunuh Soetarto.
+
+Ketegangan lain adalah bentrok antar-laskar. Bentrokan antara Sarbupri-Pesindo versus SBII-Hizbullah meletus pada 10 Juli 1948. Pasukan Batalyon Mayor Rukman dari Siliwangi juga bentrok dengan satuan dari Tentara Laut Republik Indonesia (TLRI).
+
+Musso tak hanya menghimpun kekuatan, tapi juga organisasi. Salah satunya adalah Front Demokrasi Rakyat (FDR) yang dibentuk mantan perdana menteri yang dijatuhkan, Amir Sjarifoeddin. 
+
+Musso juga berhasil bertemu kawan lamanya waktu indekos di Surabaya. Si kawan lama bukan main posisinya setelah 1945. Siapa lagi kalau bukan Sukarno. Musso dan Sukarno adalah kawan satu kos di Gang Paneleh Surabaya, di rumah Haji Oemar Said Tjokroaminoto.
+
+Baca juga: Amir Sjarifoeddin: Perdana Menteri, Kiri, dan Dihukum Mati
+
+Musso dan Sukarno bertemu di Istana Gedung Agung Yogyakarta. Harian Revolusioner (19/8/1948) yang dikutip Harry Poeze (2011) memberitakan: “Bung Karno memeluk Musso dan Musso memeluk Bung Karno.” Mereka bertemu pada 13 Agustus 1948. Mereka ngobrol soal gerakan kiri dunia masa itu. Kemudian Musso dihadiahi sebuah buku berjudul Sarinah (hlm. 28).
+
+“Buat Bung Musso dari Penulis, Djokjakarta, 13-08-1948,” tulis Sukarno pada lembaran awal buku itu. 
+
+Tak hanya Sukarno yang bertemu Musso. Fatmawati juga bertatap muka dengannya. Pertanyaan ibu negara itu adalah: "Apa Pak Musso sudah beristri? Kalau sudah di manakah istrinya?" 
+
+Ketika Musso dan Suripno hendak undur diri, Sukarno meminta sesuatu kepada mereka agar “suka membantu memperkuat negara dan melancarkan revolusi.” Musso pun menjawab: “Itu memang kewajiban saya. Saya datang ke sini untuk menciptakan ketertiban.”
+
+Terkait dengan Solo
+Menurut D.N. Aidit dalam Konfrontasi Peristiwa Madiun 1948 - Peristiwa Sumatera 1956 (1964: 9-10), pada awal September 1948, lima orang perwira TNI terbunuh. Mereka adalah Mayor Esmara Sugeng, Kapten Sutarto, Kapten Supardi, Kapten Suradi, dan Letnan Muljono. Kemudian terjadi penculikan atas anggota Partai Komunis Indonesia (PKI), Slamet Widjaja dan Pardijo. Aidit menuduh Wakil Presiden merangkap Perdana Menteri Mohammad Hatta ada di belakang semua itu.
+
+Ketegangan di Madiun pun dimulai pada 18 September 1948, tepat hari ini 70 tahun lalu.
+
+“Sesudah penculikan-penculikan dan pembunuhan-pembunuhan di Solo yang diatur dari Yogyakarta, keadaan di Madiun menjadi sangat tegang sehingga terjadilah pertempuran antara pasukan-pasukan dalam Angkatan Darat yang pro- dan yang anti-penculikan-penculikan serta pembunuhan-pembunuhan di Solo, yaitu pertempuran pada tanggal 18 September 1948 malam,” tulis Aidit.
+
+Soemarsono dalam Revolusi Agustus: Kesaksian Seorang Pelaku Sejarah (2008: 128) menyebut bahwa pada “18 September 1948, kira-kira jam dua malam, anak-anak Brigade 29 itu bertindak melucuti pasukan-pasukan yang dianggapnya gelap.” Komandan pasukan Brigade 29 adalah Letnan Kolonel Dahlan.
+
+Sementara itu, Frances Gouda dalam Indonesia Merdeka karena Amerika? (2008: 355) menulis bahwa “dini hari 18 September 1948, para simpatisan lokal PKI dan kader komunis bersama-sama kelompok-kelompok warok (jawara sakti ponorogo) oportunis tapi tidak politis, bangkit memberontak melawan pemerintahan Yogyakarta di Jawa Timur.”
+
+Menurut Aidit, Peristiwa Madiun itu terkait dengan Peristiwa di Solo. Dalam banyak narasi sejarah soal Peristiwa Madiun 1948, kerap hanya bicara soal peristiwa di Madiun, kurang dibahas soal peristiwa di Solo. Saat itu, orang-orang dari Divisi di Jawa Tengah jadi korban pembunuhan dan penculikan.
+
+“Dalam pidatonya tanggal 19 September 1948, Presiden Sukarno mengatakan bahwa Peristiwa Solo dan Peristiwa Madiun tidak berdiri sendiri,” tulis Aidit. 
+
+Peristiwa Solo, yang kata Aidit adalah settingan dari Hatta, lalu berbuntut pada ketegangan di Madiun. Para pelaku dalam peristiwa itu tentu dapat konsekuensi. Letnan Kolonel Dahlan dipecat. Musso sendiri dari awal sudah dianggap otak dari pemberontakan yang dikenal dengan nama "Peristiwa Madiun" itu.
+
+“Negara Republik Indonesia yang kita cintai, hendak direbut PKI Musso [...] bantulah pemerintah, bantulah alat pemerintah dengan sepenuh tenaga, untuk memberantas semua pemberontakan dan mengembalikan pemerintahan yang sah di daerah yang bersangkutan, kata Sukarno seperti dikutip Harry Poeze (hlm. 181).
+
+Musso pun membalas Sukarno dengan pidato. “Tanggal 18 Agustus 1948, rakyat daerah Madiun telah memegang kekuasaan Negara dalam tangannya sendiri.” Musso menjelaskan betapa lamban Revolusi Indonesia yang menurutnya dipimpin kaum borjuis.
+
+Infografik Mozaik Munawar Musso 1897-1948
+
+
+Ikut Sukarno atau Musso
+Dalam narasi sejarah Orde Baru, Partai Komunis Indonesia (PKI) dan Front Demokrasi Rakyat (FDR) tentu saja jadi penjahatnya. 
+
+“Keesokan harinya, pada tanggal 19 September 1948 diumumkan pembentukan pemerintahan baru. Selain di Madiun, PKI juga membentuk pemerintahan di Pati,” tulis buku 30 Tahun Indonesia Merdeka 1945 - 1949 Jilid 1 (1980: 148) yang dirilis pada masa Orde Baru.
+
+Baca juga:
+Bagaimana Gubernur Soerjo Dibunuh Pengikut PKI?
+Setiadjit: Anggota Parlemen Belanda, Dihukum Mati karena PKI Madiun
+
+Masyarakat zaman itu pun diberi dua pilihan: ikut Bung Karno atau Bung Musso. Sejarah akhirnya mencatat Musso sebagai orang kalah. Tentu saja Madiun jadi cerita mahapenting dalam sejarah Indonesia. 
+
+“Akhirnya dosa Musso tersebut harus ditebus dengan jiwanya sendiri. Dalam sebuah pengejaran yang dilakukan oleh anggota-anggota tentara kita di luar kota Ponorogo, Musso berhasil ditembak mati,” tulis Pinardi dalam Peristiwa coup berdarah P.K.I., September 1948 di Madiun (1967:149).
+
+Musso terbunuh pada 31 Oktober 1948. Ia tampaknya pulang ke Jawa hanya untuk mengantar nyawa.
+
+Hingga akhir hayat, Musso gagal “menciptakan ketertiban” seperti yang pernah dikatakannya kepada Sukarno. Banyak orang lebih percaya, ketertiban gagal diciptakan Musso karena ulah dia sendiri.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="gagal" translatesAutoresizingMaskIntoConstraints="NO" id="3SU-UY-5cx">
+                                <rect key="frame" x="54" y="130" width="266" height="201"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="201" id="F9w-IL-4QO"/>
+                                    <constraint firstAttribute="width" constant="266" id="TIp-wg-xYU"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3SU-UY-5cx" firstAttribute="top" secondItem="MD4-sN-tI4" secondAttribute="bottom" constant="17" id="2bn-ox-Xw3"/>
+                            <constraint firstItem="DGH-eB-ks3" firstAttribute="bottom" secondItem="Isw-6x-Wu0" secondAttribute="bottom" constant="20" id="3yH-Kf-ylj"/>
+                            <constraint firstItem="hWB-3I-s3i" firstAttribute="bottom" secondItem="DGH-eB-ks3" secondAttribute="bottom" id="ALd-LQ-eoD"/>
+                            <constraint firstItem="MD4-sN-tI4" firstAttribute="leading" secondItem="DGH-eB-ks3" secondAttribute="leading" constant="16" id="G2x-pz-kDd"/>
+                            <constraint firstItem="DGH-eB-ks3" firstAttribute="trailing" secondItem="3SU-UY-5cx" secondAttribute="trailing" constant="55" id="HkD-DW-zrF"/>
+                            <constraint firstItem="hWB-3I-s3i" firstAttribute="leading" secondItem="DGH-eB-ks3" secondAttribute="leading" id="OaV-Nb-ovK"/>
+                            <constraint firstItem="DGH-eB-ks3" firstAttribute="trailing" secondItem="MD4-sN-tI4" secondAttribute="trailing" constant="16" id="Qyu-BR-H35"/>
+                            <constraint firstItem="3SU-UY-5cx" firstAttribute="leading" secondItem="DGH-eB-ks3" secondAttribute="leading" constant="54" id="U4t-7x-MK4"/>
+                            <constraint firstItem="Isw-6x-Wu0" firstAttribute="leading" secondItem="DGH-eB-ks3" secondAttribute="leading" constant="54" id="Wbv-ia-gW0"/>
+                            <constraint firstItem="DGH-eB-ks3" firstAttribute="trailing" secondItem="Isw-6x-Wu0" secondAttribute="trailing" constant="55" id="Zol-pH-hJR"/>
+                            <constraint firstItem="MD4-sN-tI4" firstAttribute="top" secondItem="DGH-eB-ks3" secondAttribute="top" constant="19" id="jBB-Pg-UgE"/>
+                            <constraint firstItem="hWB-3I-s3i" firstAttribute="top" secondItem="0bU-RM-G5G" secondAttribute="top" id="nEV-Ng-HF5"/>
+                            <constraint firstItem="hWB-3I-s3i" firstAttribute="trailing" secondItem="DGH-eB-ks3" secondAttribute="trailing" id="rEM-bR-tOZ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="DGH-eB-ks3"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KKL-gs-fY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-327.19999999999999" y="1128.4857571214393"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SEJARAH_INDONESIA" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="C4q-Y5-HO7">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="375" id="8QU-dQ-lFG"/>
+                                    <constraint firstAttribute="height" constant="667" id="kfh-Gg-gzl"/>
+                                </constraints>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="C4q-Y5-HO7" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="DPt-vO-NUG"/>
+                            <constraint firstItem="C4q-Y5-HO7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="K6v-cB-T8i"/>
+                            <constraint firstItem="C4q-Y5-HO7" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="leN-Az-eSG"/>
+                            <constraint firstItem="C4q-Y5-HO7" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="yJB-A7-1ZN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="webView" destination="C4q-Y5-HO7" id="KQe-UO-tGQ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1930" y="1809"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Jepretan Layar 2018-10-18 pada 21.05.02" width="558" height="308"/>
+        <image name="g30s" width="554" height="312"/>
+        <image name="gagal" width="558" height="308"/>
+        <image name="indonesia-map" width="904" height="518"/>
+        <image name="kereta" width="556" height="306"/>
+        <image name="olim" width="560" height="310"/>
+        <image name="peta" width="556" height="296"/>
+        <image name="vo" width="1746" height="976"/>
+    </resources>
+</document>
